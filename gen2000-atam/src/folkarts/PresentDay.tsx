@@ -22,6 +22,8 @@ const PresentDay = () => {
          <img className='star' src="/star.png"/>
          <img className='leaf'src="/leaf.png"/>
          <img className='arrow' src="/arrow.png"/>
+
+         <img className='loopy' src="/loopy.png"/>
          
       </div>
     </div>

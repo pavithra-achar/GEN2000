@@ -116,6 +116,7 @@ p {
   background-image: url(../public/background.png);
   background-size: cover;
   overflow: hidden;
+  position: relative;
 }
 
 .top-left {
@@ -145,6 +146,211 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
+}
+
+.intro-label {
+  position: absolute;
+  top:30vh;
+  height: 25vh;
+  width: 65vw;
+  z-index: 2;
+}
+
+.intro-bottom-left {
+    position: absolute;
+    left: 0px;
+    bottom: -5vh;
+    width: 45vw;
+    height: 55vh;
+}
+
+.intro-top-right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 45vh;
+}
+
+.sparkle {
+  height :12vh;
+  position: absolute;
+}
+
+.intro-sparkle-left {
+  left:30vw;
+}
+
+.intro-sparkle-right {
+  top: 55vh;
+    right: 40vw;
+}
+
+.intro-loopy{
+      height: 30vh;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 60vw;
+}
+
+
+.history-label {
+    position: absolute;
+    top: 5vh;
+    left: 10vw;
+    height: 20vh;
+    width: 40vw;
+    z-index: 2;
+}
+
+.history-bottom-left {
+    position: absolute;
+    left: 0px;
+    bottom: -2vh;
+    width: 35vw;
+    height: 45vh;
+    transform: rotate(358deg);
+}
+
+.history-top-left {
+    position: absolute;
+    top: 15vh;
+    left: 0px;
+    width: 30vw;
+    height: 40vh;
+    transform: rotate(352deg);
+}
+
+.history-top-right {
+      position: absolute;
+    right: 5vw;
+    height: 45vh;
+}
+
+.history-center {
+    position: absolute;
+    top: 25vh;
+    width: 40vw;
+    height: 50vh;
+}
+
+.sparkle {
+  height :12vh;
+  position: absolute;
+}
+
+.history-sparkle-left {
+      left: 0vw;
+    top: 40vh;
+}
+
+.history-sparkle-right {
+  top: 25vh;
+    right: 30vw;
+}
+
+.history-loopy{
+     height: 30vh;
+    z-index: 1;
+    position: absolute;
+    bottom: -5vh;
+    left: 20vw;
+}
+
+.history-flower {
+
+    left: 25vw;
+    position: absolute;
+    height: 20vh;
+    top: 25vh;
+}
+
+.history-star {
+      position: absolute;
+    bottom: 10vh;
+    height: 30vh;
+    right: 30vw;
+}
+
+
+
+.perf-label {
+    position: absolute;
+    bottom: 5vh;
+    right: 5vw;
+    height: 25vh;
+    width: 65vw;
+    z-index: 2;
+}
+
+.perf-bottom-right {
+position: absolute;
+    right: 15vw;
+    width: 30vw;
+    height: 40vh;
+    bottom: 25vh;
+}
+
+.perf-top-right {
+    position: absolute;
+    top: -2vh;
+    right: 0vh;
+    width: 30vw;
+    height: 40vh;
+    transform: rotate(352deg);
+}
+
+.perf-top-left {
+    position: absolute;
+    left: 10vw;
+    height: 45vh;
+    top: -2vh;
+    transform: rotate(357deg);
+}
+
+.perf-bottom-left {
+       position: absolute;
+    left: 7vw;
+    height: 50vh;
+    bottom: 10vh;
+}
+
+.sparkle {
+  height :12vh;
+  position: absolute;
+}
+
+.perf-sparkle-left {
+left: 45vw;
+    top: 5vh;
+}
+
+.perf-sparkle-right {
+  bottom: 30vh;
+    right: 12vw;
+}
+
+.perf-loopy{
+    height: 40vh;
+    position: absolute;
+    bottom: -10vh;
+    left: 20vw;
+    transform: rotate(45deg);
+    z-index: 3;
+}
+
+.perf-lotus {
+    left: 45vw;
+    position: absolute;
+    height: 20vh;
+    top: 25vh;
+}
+
+.perf-star {
+    position: absolute;
+    bottom: 30vh;
+    height: 30vh;
+    left: 25vw;
 }
 
 .page-content {
@@ -198,55 +404,55 @@ code {
 }
 
 .artist .lotus {
-  position: fixed;
-  bottom: 0;
-  right: 40px;
-  width: 65vw;  
-  height: auto;
-  
+position: fixed;
+    bottom: 0;
+    right: 25vw;
+    width: 25vw;
+    height: auto;
 }
 
 .artist .master-name {
-  position: fixed;
-  width: 70vw; 
-  left: 350px;
-  bottom: -50px;
+    position: fixed;
+    width: 48vw;
+    left: 22vw;
+    bottom: 15vh;
+    z-index: 2;
 }
 
 .artist .artist-frame {
-  position: fixed;
-  top: 20px;
-  right: 100px;
-  width: 65vw;
-  height: 60vw;
+    position: fixed;
+    right: 3vw;
+    top: 15vh;
+    width: 35vw;
 
 }
 
 .artist .star {
-  position: fixed;
-  left: 300px;
-  top: 0px;
-  width: 80vw;
+    position: fixed;
+    left: 0vw;
+    width: 15vw;
+    top: 30vh;
 }
 
 .artist .leaf {
-position: fixed;
-  left: 0;
-  top: 0;
+    position: fixed;
+    right: 0vw;
+    top: 0;
+    height: 25vh;
 }
 
 .artist .frame2 {
-  position: fixed;
-  left:0;
-  top:-550px;
-  width: 85vw;
+      position: fixed;
+    left: 0;
+    top: 0vh;
+    width: 45vw;
 }
 
 .artist .frame3 {
-  position: fixed;
-  left:0;
-  bottom:0px;
-  width: 85vw;
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    width: 45vw;
 }
 
 .card::before {
@@ -267,68 +473,73 @@ position: fixed;
 }
 
 .present-day .lotus {
-  position: fixed;
-  bottom: 0;
-  right: 60px;
-  width: 65vw;  
-  height: auto;
+       position: fixed;
+    bottom: 0;
+    right: 30vw;
+    width: 20vw;
+    height: auto;
 }
 
 .present-day .label {
   position: fixed;
-  top:0;
-  right:0;
-  width: 130vh;  
+    top: 0;
+    right: 0;
+    width: 40vw;
 }
 
 
 .present-day .frame1 {
-  position: fixed;
-  top: 170px;
-  right: 120px;
-  width: 80vw;
-  height: 50vw;
+    position: fixed;
+    bottom: 0vh;
+    right: 8vw;
+    width: 30vw;
 
 }
 
 .present-day .frame3 {
   position: fixed;
-  left:-400px;
-  width: 160vh; 
-  height: 120vh;
-  bottom:-280px;
-  rotate: -12deg;
+    left: 15vw;
+    width: 40vw;
+    bottom: 0vh;
+    rotate: -12deg;
 }
 
 .present-day .frame2 {
-  position: fixed;
-  left:0;
-  top:-550px;
-  width: 180vh; 
-  height: 120vh;
+   position: fixed;
+    left: 4vw;
+    width: 45vw;
+    top: 3vh;
 }
 
 .present-day .arrow {
   position: fixed;
-  width: 160vh; 
-  left: 250px;
-  top: -50px;
-  rotate: -90deg;
+    right: 15vw;
+    top: 5vh;
+    width: 30vw;
 }
 
 .present-day .star {
-  position: fixed;
-  left: 160px;
-  top: px;
-  width: 80vw;
+    position: fixed;
+    left: 45vw;
+    width: 15vw;
+    top: 30vh;
 }
+
+.present-day .loopy {
+      position: fixed;
+    top: 0vh;
+    width: 20vw;
+    left: 3vw;
+}
+
 
 
 .present-day .leaf {
 position: fixed;
-  top: 650px;
-  left: -145px;
-  rotate: -90deg;
+    bottom: 5vh;
+    left: -5vw;
+    rotate: -90deg;
+    height: 30vh;
 }
 .card::after {
   content: '';

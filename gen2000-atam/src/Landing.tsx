@@ -10,7 +10,7 @@ const Landing = () => {
     <div className='page'>
         <Link to={"/art/"+id+"/intro"}>Intro</Link>
         <Link to={"/art/"+id+"/history"}>History</Link>
-        <Link to={"/art/"+id+"/performace"}>Performance Elements</Link>
+        <Link to={"/art/"+id+"/performance"}>Performance Elements</Link>
         <Link to={"/art/"+id+"/presentDay"}>Present Day</Link>
         <Link to={"/art/"+id+"/artists"}>Artists</Link>
     </div>
