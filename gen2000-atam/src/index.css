@@ -262,6 +262,64 @@ position: fixed;
   pointer-events: none;
 }
 
+.present-day {
+
+}
+
+.present-day .lotus {
+  position: fixed;
+  bottom: 0;
+  right: 60px;
+  width: 65vw;  
+  height: auto;
+}
+
+.present-day .label {
+  position: fixed;
+  top:0;
+  right:0;
+  width: 130vh;  
+}
+
+
+.present-day .frame1 {
+  position: fixed;
+  top: 170px;
+  right: 120px;
+  width: 80vw;
+  height: 50vw;
+
+}
+
+.present-day .frame3 {
+  position: fixed;
+  left:-400px;
+  width: 160vh; 
+  height: 120vh;
+  bottom:-280px;
+  rotate: -12deg;
+}
+
+.present-day .frame2 {
+  position: fixed;
+  left:0;
+  top:-550px;
+  width: 180vh; 
+  height: 120vh;
+}
+
+.present-day .arrow {
+  
+  width: 130vh; 
+  
+}
+
+.present-day .star {
+  position: fixed;
+  left: 160px;
+  top: 10px;
+  width: 80vw;
+}
 .card::after {
   content: '';
   display: block;

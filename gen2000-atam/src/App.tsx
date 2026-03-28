@@ -5,6 +5,7 @@ import Intro from './folkarts/Intro';
 import Artist from './folkarts/Artist';
 import Home from './Home';
 import Landing from './Landing';
+import PresentDay from './folkarts/PresentDay';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/art/:id/" element={<Landing />} />
         <Route path="/art/:id/intro" element={<Intro />}/>
         <Route path="/art/:id/artists" element={<Artist />}/>
+        <Route path="/art/:id/presentDay" element={<PresentDay/>}/>
       </Routes>
     </BrowserRouter>
   );
