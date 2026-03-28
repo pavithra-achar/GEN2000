@@ -154,6 +154,10 @@
   }
 }
 
+.relative {
+  position: relative;
+}
+
 #spacer {
   height: 88px;
   border-top: 1px solid var(--border);

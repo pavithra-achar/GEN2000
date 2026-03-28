@@ -109,6 +109,7 @@ p {
   height: 100%;
   width: 100%;
   padding-top: 50px;
+  z-index: 51;
 }
 
 .bg{
@@ -190,6 +191,48 @@ code {
   .card {
     height: 250px;
   }
+}
+
+.artist {
+  position: relative;
+}
+
+.artist .lotus {
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+  width: 65vw;  
+  height: auto;
+  
+}
+
+.artist .master-name {
+  position: fixed;
+  width: 70vw; 
+  left: 200px;
+  bottom: -50px;
+}
+
+.artist .artist-frame {
+  position: fixed;
+  top: 20px;
+  left: 200px;
+  width: 80vw;
+  height: 60vw;
+
+}
+
+.artist .star {
+  position: fixed;
+  left: 200px;
+  bottom: -50px;
+  width: 80vw;
+}
+
+.artist .leaf {
+position: fixed;
+  left: 0;
+  top: 0;
 }
 
 .card::before {

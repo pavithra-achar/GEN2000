@@ -1,6 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
 import folkarts from "../assets/folkarts/info.json";
+import Background from '../../components/Background';
 
 const Intro = () => {
   var { id } = useParams();
@@ -11,13 +12,14 @@ const Intro = () => {
   return (
     <div className='page bg'>{folkarts.folkarts.at(parseInt(id))?.name}
     
-      
-          <img className="top-left" src="../../public/top-scrap.png"></img>
-          <img className="bottom-right" src="../../public/bottom-scrap.png"></img>
+      <Background />
+      <div className='relative'>
+        
+      </div>
       
       
 
-      </div>
+    </div>
   )
 }
 
