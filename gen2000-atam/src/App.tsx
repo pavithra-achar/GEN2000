@@ -1,7 +1,9 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Navbar from '../components/Navbar'
-import './App.css'
+import './App.css';
+import Intro from './folkarts/Intro';
 import Home from './Home';
+import Landing from './Landing';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       {/* Routes */}
       <Routes>
         <Route path="/home" element={<Home />} />
+        <Route path="/art/:id/" element={<Landing />} />
+        <Route path="/art/:id/intro" element={<Intro />}/>
       </Routes>
     </BrowserRouter>
   );
