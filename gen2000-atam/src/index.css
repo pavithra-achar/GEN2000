@@ -309,16 +309,26 @@ position: fixed;
 }
 
 .present-day .arrow {
-  
-  width: 130vh; 
-  
+  position: fixed;
+  width: 160vh; 
+  left: 250px;
+  top: -50px;
+  rotate: -90deg;
 }
 
 .present-day .star {
   position: fixed;
   left: 160px;
-  top: 10px;
+  top: px;
   width: 80vw;
+}
+
+
+.present-day .leaf {
+position: fixed;
+  top: 650px;
+  left: -145px;
+  rotate: -90deg;
 }
 .card::after {
   content: '';

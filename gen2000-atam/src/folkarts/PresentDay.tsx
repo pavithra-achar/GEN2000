@@ -18,8 +18,10 @@ const PresentDay = () => {
          <img className='frame2' src="/frame2.png"/>
          <img className='frame1' src="/frame1.png"/>
          <img className="lotus"src="/lotus.png"/>
-         <img className='arrow' src="/arrow.png"/>
+         
          <img className='star' src="/star.png"/>
+         <img className='leaf'src="/leaf.png"/>
+         <img className='arrow' src="/arrow.png"/>
          
       </div>
     </div>
