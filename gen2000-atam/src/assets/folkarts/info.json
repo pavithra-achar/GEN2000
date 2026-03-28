@@ -1,0 +1,13 @@
+{
+    "folkarts" : [
+        {
+            "name" : "art1"
+        },
+        {
+            "name" : "art2"
+        },
+        {
+            "name" : "art3"
+        }
+    ]
+}
