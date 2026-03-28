@@ -9,7 +9,15 @@ const Intro = () => {
   }
 
   return (
-    <div className='page'>{folkarts.folkarts.at(parseInt(id))?.name}</div>
+    <div className='page bg'>{folkarts.folkarts.at(parseInt(id))?.name}
+    
+      
+          <img className="top-left" src="../../public/top-scrap.png"></img>
+          <img className="bottom-right" src="../../public/bottom-scrap.png"></img>
+      
+      
+
+      </div>
   )
 }
 
