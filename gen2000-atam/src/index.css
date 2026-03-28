@@ -209,22 +209,22 @@ code {
 .artist .master-name {
   position: fixed;
   width: 70vw; 
-  left: 200px;
+  left: 350px;
   bottom: -50px;
 }
 
 .artist .artist-frame {
   position: fixed;
   top: 20px;
-  left: 200px;
-  width: 80vw;
+  right: 100px;
+  width: 65vw;
   height: 60vw;
 
 }
 
 .artist .star {
   position: fixed;
-  left: 200px;
+  left: 300px;
   top: 0px;
   width: 80vw;
 }
@@ -238,15 +238,15 @@ position: fixed;
 .artist .frame2 {
   position: fixed;
   left:0;
-  top:-380px;
-  width: 60vw;
+  top:-550px;
+  width: 85vw;
 }
 
 .artist .frame3 {
   position: fixed;
   left:0;
   bottom:0px;
-  width: 60vw;
+  width: 85vw;
 }
 
 .card::before {

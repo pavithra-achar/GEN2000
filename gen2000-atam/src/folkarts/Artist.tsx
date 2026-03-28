@@ -17,9 +17,10 @@ const Artist = () => {
        
         <img className='artist-frame' src="/frame1.png"/>
         <img className='leaf' src="/leaf.png"/>
-        <img className='star' src="/star.png"/>
+        
         <img className='frame2' src="/frame2.png"/>
          <img className='frame3' src="/frame2.png"/>
+         <img className='star' src="/star.png"/>
           <img className="lotus"src="/lotus.png"/>
       </div>
     </div>
