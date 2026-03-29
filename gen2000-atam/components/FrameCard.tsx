@@ -7,31 +7,31 @@ interface FrameCardProps {
     modalTitle?: string;
     modalContent: string;
     className: string;
-    imageClassName: string;
+    innerClassName: string;
 }
 
 const FrameCard = (props: FrameCardProps) => {
     const [open, setOpen] = useState(false);
-
     return (
     <>
-        <div
-        className={`relative inline-block cursor-pointer z-20 ${props.className}`}
-        onClick={() => setOpen(true)}
-        >
-        <img
-            src={props.imageSrc}
-            alt={props.alt}
-            className={`absolute object-cover ${props.imageClassName}`}
-        />
-        <img
-            src={props.frameSrc}
-            alt="frame"
-            className="relative z-10 w-full h-full pointer-events-none"
-        />
+       <div className={`cursor-pointer z-20 ${props.className}`}
+            onClick={() => setOpen(true)}>
+            <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                <img
+                    src={props.imageSrc}
+                    alt={props.alt}
+                    className={`object-cover ${
+                    props.innerClassName || "w-[80%] h-[75%]"
+                    }`}
+                />
+            </div>
+            <img
+                src={props.frameSrc}
+                alt="frame"
+                className="relative z-10 w-full h-full pointer-events-none"
+            />
         </div>
-
-      {open && (
+       {open && (
         <div className="fixed inset-0 z-50 flex items-center justify-center">
     
             <div className="relative w-[90%] max-w-lg p-6 rounded-xl shadow-2xl 
