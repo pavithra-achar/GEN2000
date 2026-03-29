@@ -10,7 +10,7 @@ const Home = () => {
         <div className='card'>
           <div className='content'>
             <h2 className='title'>{art.name}</h2>
-            <p className='copy'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p className='copy'>{art.desc}</p>
             <Link to={"/art/" + index} className='btn'>View More</Link>
           </div>
         </div>

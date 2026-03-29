@@ -18,10 +18,10 @@ const Artist = () => {
        
        <FrameCard
           frameSrc="/frame1.png"
-          imageSrc="/atam-logo.png"
-          alt="Artist Photo"
-          modalTitle="About the master"
-          modalContent="lorem ipsum..."
+          imageSrc={folkarts.folkarts.at(parseInt(id))?.sections?.artists.content.frame1.imageSrc}
+          alt={folkarts.folkarts.at(parseInt(id))?.sections?.artists.content.frame1.alt}
+          modalTitle={folkarts.folkarts.at(parseInt(id))?.sections?.artists.content.frame1.modalTitle}
+          modalContent={folkarts.folkarts.at(parseInt(id))?.sections?.artists.content.frame1.modalContent}
           className="artist-frame"
           innerClassName=''
         />

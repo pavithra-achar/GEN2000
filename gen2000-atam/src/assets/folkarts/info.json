@@ -1,13 +1,133 @@
 {
     "folkarts" : [
         {
-            "name" : "art1"
+            "name" : "art1",
+            "desc" : "Description for art1",
+            "sections" : {
+                "intro" : {
+                    "template" : "template1",
+                    "content" : {
+                        "frame1" : {
+                            "imageSrc" : "/atam-logo.png",
+                            "alt" : "Artist Photo",
+                            "modalTitle" : "About the master",
+                            "modalContent" : "lorem ipsum..."
+                        },
+                        "frame2" : {
+                            "imageSrc" : "/atam-logo.png",
+                            "alt" : "Artwork Photo",
+                            "modalTitle" : "About the artwork",
+                            "modalContent" : "lorem ipsum..."
+                        },
+                        "frame3" : {
+                            "imageSrc" : "/atam-logo.png",
+                            "alt" : "Process Photo",
+                            "modalTitle" : "About the process",
+                            "modalContent" : "lorem ipsum..."
+                        }
+                    }
+                },
+                "history" : {
+                    "template" : "template1",
+                    "content" : {
+                        "frame1" : {
+                            "imageSrc" : "/atam-logo.png",
+                            "alt" : "Artist Photo",
+                            "modalTitle" : "About the master",
+                            "modalContent" : "lorem ipsum..."
+                        },
+                        "frame2" : {
+                            "imageSrc" : "/atam-logo.png",
+                            "alt" : "Artwork Photo",
+                            "modalTitle" : "About the artwork",
+                            "modalContent" : "lorem ipsum..."
+                        },
+                        "frame3" : {
+                            "imageSrc" : "/atam-logo.png",
+                            "alt" : "Process Photo",
+                            "modalTitle" : "About the process",
+                            "modalContent" : "lorem ipsum..."
+                        }
+                    }
+                },
+                "performance" :{
+                    "template" : "template1",
+                    "content" : {
+                        "frame1" : {
+                            "imageSrc" : "/atam-logo.png",
+                            "alt" : "Artist Photo",
+                            "modalTitle" : "About the master",
+                            "modalContent" : "lorem ipsum..."
+                        },
+                        "frame2" : {
+                            "imageSrc" : "/atam-logo.png",
+                            "alt" : "Artwork Photo",
+                            "modalTitle" : "About the artwork",
+                            "modalContent" : "lorem ipsum..."
+                        },
+                        "frame3" : {
+                            "imageSrc" : "/atam-logo.png",
+                            "alt" : "Process Photo",
+                            "modalTitle" : "About the process",
+                            "modalContent" : "lorem ipsum..."
+                        }
+                    }
+                },
+                "presentDay" : {
+                   "template" : "template1",
+                    "content" : {
+                        "frame1" : {
+                            "imageSrc" : "/atam-logo.png",
+                            "alt" : "Artist Photo",
+                            "modalTitle" : "About the master",
+                            "modalContent" : "lorem ipsum..."
+                        },
+                        "frame2" : {
+                            "imageSrc" : "/atam-logo.png",
+                            "alt" : "Artwork Photo",
+                            "modalTitle" : "About the artwork",
+                            "modalContent" : "lorem ipsum..."
+                        },
+                        "frame3" : {
+                            "imageSrc" : "/atam-logo.png",
+                            "alt" : "Process Photo",
+                            "modalTitle" : "About the process",
+                            "modalContent" : "lorem ipsum..."
+                        }
+                    } 
+                },
+                "artists" :{
+                    "template" : "template1",
+                    "content" : {
+                        "frame1" : {
+                            "imageSrc" : "/atam-logo.png",
+                            "alt" : "Artist Photo",
+                            "modalTitle" : "About the master",
+                            "modalContent" : "lorem ipsum..."
+                        },
+                        "frame2" : {
+                            "imageSrc" : "/atam-logo.png",
+                            "alt" : "Artwork Photo",
+                            "modalTitle" : "About the artwork",
+                            "modalContent" : "lorem ipsum..."
+                        },
+                        "frame3" : {
+                            "imageSrc" : "/atam-logo.png",
+                            "alt" : "Process Photo",
+                            "modalTitle" : "About the process",
+                            "modalContent" : "lorem ipsum..."
+                        }
+                    }
+                }
+            }
         },
         {
-            "name" : "art2"
+            "name" : "art2",
+            "desc" : "Description for art2"
         },
         {
-            "name" : "art3"
+            "name" : "art3",
+            "desc" : "Description for art3"
         }
     ]
 }
