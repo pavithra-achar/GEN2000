@@ -77,7 +77,7 @@ h1,
 h2 {
   font-family: var(--heading);
   font-weight: 500;
-  color: var(--text-h);
+  color: #240b0b
 }
 
 h1 {
@@ -404,8 +404,8 @@ left: 45vw;
 }
 
 .artist .lotus {
-position: fixed;
-    bottom: 0;
+position: absolute;
+    bottom: 0vw;
     right: 25vw;
     width: 25vw;
     height: auto;
