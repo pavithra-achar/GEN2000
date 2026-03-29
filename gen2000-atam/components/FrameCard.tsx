@@ -19,14 +19,11 @@ const FrameCard = (props: FrameCardProps) => {
         className={`relative inline-block cursor-pointer z-20 ${props.className}`}
         onClick={() => setOpen(true)}
         >
-        {/* Image */}
         <img
             src={props.imageSrc}
             alt={props.alt}
             className={`absolute object-cover ${props.imageClassName}`}
         />
-
-        {/* Frame */}
         <img
             src={props.frameSrc}
             alt="frame"
@@ -46,7 +43,7 @@ const FrameCard = (props: FrameCardProps) => {
             >×</button>
 
       <div className="absolute -top-6 left-1/2 -translate-x-1/2">
-        <img src="/star.png" className="w-10 pointer-events-none" />
+        <img src="/lotus.png" className="w-15 pointer-events-none" />
       </div>
 
       <h2 className="text-2xl font-bold mb-3">
