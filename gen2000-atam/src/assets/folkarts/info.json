@@ -1,133 +1,65 @@
 {
-    "folkarts" : [
-        {
-            "name" : "art1",
-            "desc" : "Description for art1",
-            "sections" : {
-                "intro" : {
-                    "template" : "template1",
-                    "content" : {
-                        "frame1" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Artist Photo",
-                            "modalTitle" : "About the master",
-                            "modalContent" : "lorem ipsum..."
-                        },
-                        "frame2" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Artwork Photo",
-                            "modalTitle" : "About the artwork",
-                            "modalContent" : "lorem ipsum..."
-                        },
-                        "frame3" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Process Photo",
-                            "modalTitle" : "About the process",
-                            "modalContent" : "lorem ipsum..."
-                        }
-                    }
-                },
-                "history" : {
-                    "template" : "template1",
-                    "content" : {
-                        "frame1" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Artist Photo",
-                            "modalTitle" : "About the master",
-                            "modalContent" : "lorem ipsum..."
-                        },
-                        "frame2" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Artwork Photo",
-                            "modalTitle" : "About the artwork",
-                            "modalContent" : "lorem ipsum..."
-                        },
-                        "frame3" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Process Photo",
-                            "modalTitle" : "About the process",
-                            "modalContent" : "lorem ipsum..."
-                        }
-                    }
-                },
-                "performance" :{
-                    "template" : "template1",
-                    "content" : {
-                        "frame1" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Artist Photo",
-                            "modalTitle" : "About the master",
-                            "modalContent" : "lorem ipsum..."
-                        },
-                        "frame2" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Artwork Photo",
-                            "modalTitle" : "About the artwork",
-                            "modalContent" : "lorem ipsum..."
-                        },
-                        "frame3" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Process Photo",
-                            "modalTitle" : "About the process",
-                            "modalContent" : "lorem ipsum..."
-                        }
-                    }
-                },
-                "presentDay" : {
-                   "template" : "template1",
-                    "content" : {
-                        "frame1" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Artist Photo",
-                            "modalTitle" : "About the master",
-                            "modalContent" : "lorem ipsum..."
-                        },
-                        "frame2" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Artwork Photo",
-                            "modalTitle" : "About the artwork",
-                            "modalContent" : "lorem ipsum..."
-                        },
-                        "frame3" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Process Photo",
-                            "modalTitle" : "About the process",
-                            "modalContent" : "lorem ipsum..."
-                        }
-                    } 
-                },
-                "artists" :{
-                    "template" : "template1",
-                    "content" : {
-                        "frame1" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Artist Photo",
-                            "modalTitle" : "About the master",
-                            "modalContent" : "lorem ipsum..."
-                        },
-                        "frame2" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Artwork Photo",
-                            "modalTitle" : "About the artwork",
-                            "modalContent" : "lorem ipsum..."
-                        },
-                        "frame3" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Process Photo",
-                            "modalTitle" : "About the process",
-                            "modalContent" : "lorem ipsum..."
-                        }
-                    }
-                }
+  "folkarts": [
+    {
+      "name": "Therukoothu | \u0ba4\u0bc6 \u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc2\u0ba4\u0bcd\u0ba4",
+      "desc": "Translating to \"Street Theatre,\" this is a highly stylized, multi-disciplinary folk performance combining acting, singing, dance, and vibrant makeup.",
+      "sections": {
+        "intro": {
+          "template": "template1",
+          "content": {
+            "frame1": {
+              "imageSrc": "/therukoothu/intro_1.png",
+              "alt": "Fully Dressed Artisan",
+              "modalTitle": "Fully Dressed Artisan",
+              "modalContent": "Performers wear elaborate wooden ornaments known as bujai kattai (shoulder pieces) and large, gilded headgear decorated with small mirrors."
             }
+          }
         },
-        {
-            "name" : "art2",
-            "desc" : "Description for art2"
+        "history": {
+          "template": "template1",
+          "content": {
+            "frame1": {
+              "imageSrc": "/therukoothu/history_1.jpg",
+              "alt": "Traditional Costume",
+              "modalTitle": "Traditional Costume",
+              "modalContent": "Actors wear ornaments that give them a distinctive, square-like silhouette, signifying their non-human or heroic status. Makeup is bold and symbolic, often using a white base with fierce red and black strokes to denote specific character archetypes."
+            }
+          }
         },
-        {
-            "name" : "art3",
-            "desc" : "Description for art3"
+        "performance": {
+          "template": "template1",
+          "content": {
+            "frame1": {
+              "imageSrc": "/therukoothu/performance_1.jpeg",
+              "alt": "Photo: M. Karunakaran",
+              "modalTitle": "Photo: M. Karunakaran",
+              "modalContent": "Shri Bavaani Amman Therukkoothu Nataka Manram, Kanchipuram, presented \"Alamugasooran Samhaaram\", an unusual story of Arjuna being helped by Draupadi, who takes on the Kali avatara to kill the asura."
+            }
+          }
+        },
+        "presentDay": {
+          "template": "template1",
+          "content": {
+            "frame1": {
+              "imageSrc": "/therukoothu/presentday_1.jpeg",
+              "alt": "Modern Day Female Performers",
+              "modalTitle": "Modern Day Female Performers",
+              "modalContent": "While traditionally a male-dominated art form where men performed female roles (sthreepart), modern troupes have increasingly begun to include female performers, reflecting shifting social dynamics within rural Tamil Nadu."
+            }
+          }
+        },
+        "artists": {
+          "template": "template1",
+          "content": {
+            "frame1": {
+              "imageSrc": "/therukoothu/artist_1.png",
+              "alt": "A recipient of the Bismillah Khan Yuva Puraskar",
+              "modalTitle": "A recipient of the Bismillah Khan Yuva Puraskar",
+              "modalContent": "Mr. Murugan was trained under the legendary Purisai Kannappa Thambiran. His career spans traditional village performances and global collaborations (e.g., France\u2019s Th\u00e9\u00e2tre du Soleil), redefining Therukoothu for international audiences."
+            }
+          }
         }
-    ]
+      }
+    }
+  ]
 }

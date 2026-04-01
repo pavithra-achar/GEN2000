@@ -1,45 +1,49 @@
-import { useParams } from 'react-router-dom';
+import { useParams } from "react-router-dom";
 import folkarts from "../assets/folkarts/info.json";
-import Background from '../../components/Background';
-import FrameCard from '../../components/FrameCard';
+import Background from "../../components/Background";
+import FrameCard from "../../components/FrameCard";
 
 const PresentDay = () => {
-    var { id } = useParams();
-    if(id == null) {
-        id = "0";
-    }
+  var { id } = useParams();
+  if (id == null) {
+    id = "0";
+  }
 
-    return (
-        <div className='page bg present-day'>{folkarts.folkarts.at(parseInt(id))?.name}
-    
+  const folkart = folkarts.folkarts.at(parseInt(id));
+
+  return (
+    <div className="page bg present-day">
+      {folkart?.name}
+
       <Background />
-      <div className='relative'>
-         <img className='label' src="/label-tilt.png"/>
-        
-         <img className='frame3' src="/frame3.png"/> 
-         <img className='frame2' src="/frame2.png"/>
-    
-         {/* <img className='frame1' src="/frame1.png"/> */}
+      <div className="relative">
+        <img className="label" src="/label-tilt.png" />
+
+        <img className="frame3" src="/frame3.png" />
+        <img className="frame2" src="/frame2.png" />
+
+        {/* <img className='frame1' src="/frame1.png"/> */}
         <FrameCard
           frameSrc="/frame1.png"
-          imageSrc="/atam-logo.png"
-          alt="Artist Photo"
-          modalTitle="About the master"
-          modalContent="lorem ipsum..."
+          imageSrc={folkart?.sections?.presentDay.content.frame1.imageSrc}
+          alt={folkart?.sections?.presentDay.content.frame1.alt}
+          modalTitle={folkart?.sections?.presentDay.content.frame1.modalTitle}
+          modalContent={
+            folkart?.sections?.presentDay.content.frame1.modalContent
+          }
           className="frame1"
-          innerClassName=''
+          innerClassName=""
         />
-         <img className="lotus"src="/lotus.png"/>
-         
-         <img className='star' src="/star.png"/>
-         <img className='leaf'src="/leaf.png"/>
-         <img className='arrow' src="/arrow.png"/>
+        <img className="lotus" src="/lotus.png" />
 
-         <img className='loopy' src="/loopy.png"/>
-         
+        <img className="star" src="/star.png" />
+        <img className="leaf" src="/leaf.png" />
+        <img className="arrow" src="/arrow.png" />
+
+        <img className="loopy" src="/loopy.png" />
       </div>
     </div>
-    )
-}
+  );
+};
 
 export default PresentDay;
