@@ -1,133 +1,796 @@
 {
-    "folkarts" : [
+    "folkarts": [
         {
-            "name" : "art1",
-            "desc" : "Description for art1",
-            "sections" : {
-                "intro" : {
-                    "template" : "template1",
-                    "content" : {
-                        "frame1" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Artist Photo",
-                            "modalTitle" : "About the master",
-                            "modalContent" : "lorem ipsum..."
-                        },
-                        "frame2" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Artwork Photo",
-                            "modalTitle" : "About the artwork",
-                            "modalContent" : "lorem ipsum..."
-                        },
-                        "frame3" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Process Photo",
-                            "modalTitle" : "About the process",
-                            "modalContent" : "lorem ipsum..."
+            "name": "Therukoothu | \u0ba4\u0bc6 \u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc2\u0ba4\u0bcd\u0ba4",
+            "desc": "Translating to \"Street Theatre,\" this is a highly stylized, multi-disciplinary folk performance combining acting, singing, dance, and vibrant makeup.",
+            "sections": {
+                "intro": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2026-5-therukoothu/intro_1.png",
+                            "alt": "Fully Dressed Artisan",
+                            "modalTitle": "Fully Dressed Artisan",
+                            "modalContent": "Performers wear elaborate wooden ornaments known as bujai kattai (shoulder pieces) and large, gilded headgear decorated with small mirrors."
                         }
                     }
                 },
-                "history" : {
-                    "template" : "template1",
-                    "content" : {
-                        "frame1" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Artist Photo",
-                            "modalTitle" : "About the master",
-                            "modalContent" : "lorem ipsum..."
-                        },
-                        "frame2" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Artwork Photo",
-                            "modalTitle" : "About the artwork",
-                            "modalContent" : "lorem ipsum..."
-                        },
-                        "frame3" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Process Photo",
-                            "modalTitle" : "About the process",
-                            "modalContent" : "lorem ipsum..."
+                "history": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2026-5-therukoothu/history_1.jpg",
+                            "alt": "Traditional Costume",
+                            "modalTitle": "Traditional Costume",
+                            "modalContent": "Actors wear ornaments that give them a distinctive, square-like silhouette, signifying their non-human or heroic status. Makeup is bold and symbolic, often using a white base with fierce red and black strokes to denote specific character archetypes."
                         }
                     }
                 },
-                "performance" :{
-                    "template" : "template1",
-                    "content" : {
-                        "frame1" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Artist Photo",
-                            "modalTitle" : "About the master",
-                            "modalContent" : "lorem ipsum..."
-                        },
-                        "frame2" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Artwork Photo",
-                            "modalTitle" : "About the artwork",
-                            "modalContent" : "lorem ipsum..."
-                        },
-                        "frame3" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Process Photo",
-                            "modalTitle" : "About the process",
-                            "modalContent" : "lorem ipsum..."
+                "performance": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2026-5-therukoothu/performance_1.jpeg",
+                            "alt": "Photo: M. Karunakaran",
+                            "modalTitle": "Photo: M. Karunakaran",
+                            "modalContent": "Shri Bavaani Amman Therukkoothu Nataka Manram, Kanchipuram, presented \"Alamugasooran Samhaaram\", an unusual story of Arjuna being helped by Draupadi, who takes on the Kali avatara to kill the asura."
                         }
                     }
                 },
-                "presentDay" : {
-                   "template" : "template1",
-                    "content" : {
-                        "frame1" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Artist Photo",
-                            "modalTitle" : "About the master",
-                            "modalContent" : "lorem ipsum..."
-                        },
-                        "frame2" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Artwork Photo",
-                            "modalTitle" : "About the artwork",
-                            "modalContent" : "lorem ipsum..."
-                        },
-                        "frame3" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Process Photo",
-                            "modalTitle" : "About the process",
-                            "modalContent" : "lorem ipsum..."
+                "presentDay": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2026-5-therukoothu/presentday_1.jpeg",
+                            "alt": "Modern Day Female Performers",
+                            "modalTitle": "Modern Day Female Performers",
+                            "modalContent": "While traditionally a male-dominated art form where men performed female roles (sthreepart), modern troupes have increasingly begun to include female performers, reflecting shifting social dynamics within rural Tamil Nadu."
                         }
-                    } 
+                    }
                 },
-                "artists" :{
-                    "template" : "template1",
-                    "content" : {
-                        "frame1" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Artist Photo",
-                            "modalTitle" : "About the master",
-                            "modalContent" : "lorem ipsum..."
-                        },
-                        "frame2" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Artwork Photo",
-                            "modalTitle" : "About the artwork",
-                            "modalContent" : "lorem ipsum..."
-                        },
-                        "frame3" : {
-                            "imageSrc" : "/atam-logo.png",
-                            "alt" : "Process Photo",
-                            "modalTitle" : "About the process",
-                            "modalContent" : "lorem ipsum..."
+                "artists": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2026-5-therukoothu/artist_1.png",
+                            "alt": "A recipient of the Bismillah Khan Yuva Puraskar",
+                            "modalTitle": "A recipient of the Bismillah Khan Yuva Puraskar",
+                            "modalContent": "Mr. Murugan was trained under the legendary Purisai Kannappa Thambiran. His career spans traditional village performances and global collaborations (e.g., France\u2019s Th\u00e9\u00e2tre du Soleil), redefining Therukoothu for international audiences."
                         }
                     }
                 }
             }
         },
         {
-            "name" : "art2",
-            "desc" : "Description for art2"
+            "name": "Parai Aattam",
+            "desc": "An ancient, vibrant Tamil folk art combining the rhythmic, energetic drumming of the Parai (a traditional frame drum made of wood and leather) with vigorous dancing",
+            "sections": {
+                "intro": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2024-3-parai-aattam/intro_1.png",
+                            "alt": "Nam Marabu Series 3",
+                            "modalTitle": "Nam Marabu Series 3",
+                            "modalContent": "With over 220 participants from West Spring Primary School, National Junior College, Temasek Polytechnic, and organizations like Omkar Arts and Damaru Singapore, the events included hands-on drumming sessions, dialogues, and Q&A interactions."
+                        }
+                    }
+                },
+                "history": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2024-3-parai-aattam/history_1.jpg",
+                            "alt": "An ancient folk dance and art form, pre-Sangam",
+                            "modalTitle": "An ancient folk dance and art form, pre-Sangam",
+                            "modalContent": "Historically, it served as a crucial communication tool for announcements, war, farming, and celebrations before being restricted to funerals due to caste-based stigma, but is now witnessing a resurgence as a symbol of cultural identity and resistance."
+                        }
+                    }
+                },
+                "performance": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2024-3-parai-aattam/performance_1.png",
+                            "alt": "Participants during the workshop",
+                            "modalTitle": "Participants during the workshop",
+                            "modalContent": "It is played with two distinct sticks: Adi Kucchi: A short, thick stick (approx. 18 cm) used for the base note and Sunddu Kucchi: A long, thin stick (approx. 28 cm) for higher-pitched, faster beats."
+                        }
+                    }
+                },
+                "presentDay": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2024-3-parai-aattam/presentday_1.png",
+                            "alt": "Younger generation trying their hands at the instrument",
+                            "modalTitle": "Younger generation trying their hands at the instrument",
+                            "modalContent": "By introducing Parai Aatam to young students, the Nam Marabu Series ensured that the younger generation developed an early appreciation for their cultural heritage, cultivating pride and encouraging continued learning and practice."
+                        }
+                    }
+                },
+                "artists": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2024-3-parai-aattam/artist_1.png",
+                            "alt": "Mr Velu Aasan",
+                            "modalTitle": "Mr Velu Aasan",
+                            "modalContent": "Legendary Parai artiste and 2025 Padma Shri awardee"
+                        }
+                    }
+                }
+            }
         },
         {
-            "name" : "art3",
-            "desc" : "Description for art3"
+            "name": "Karagaattam",
+            "desc": "Karagaattam is a vibrant Tamil folk dance centred on balance, rhythm, and celebration. Dancers perform with a decorated karagam, or pot, balanced on the head, creating a form that is both visually striking and deeply rooted in community tradition. In ATAM\u2019s Nam Marabu Series 2 (2024), Karagaattam was presented together with Thavil, highlighting the close relationship between movement and live percussion.",
+            "sections": {
+                "intro": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2024-2-karagaattam-and-thavil/intro_1.jpeg",
+                            "alt": "Nam Marabu Series 2 (2024)",
+                            "modalTitle": "Nam Marabu Series 2 (2024)",
+                            "modalContent": "Held from 8 to 11 May 2024, Nam Marabu Series 2 introduced Karagaattam and Thavil through an in-house dialogue session at the Indian Heritage Centre and outreach workshops across studios and schools in Singapore. The series brought the folk art closer to students, dance enthusiasts, and first-time learners."
+                        }
+                    }
+                },
+                "history": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2024-2-karagaattam-and-thavil/history_1.jpeg",
+                            "alt": "Why the Pot Matters",
+                            "modalTitle": "Why the Pot Matters",
+                            "modalContent": "The word \u201cKaragaattam\u201d points directly to its central symbol: the karagam, or decorated pot. In performance, the pot is not just a prop. It carries ritual, visual, and cultural meaning."
+                        }
+                    }
+                },
+                "performance": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2024-2-karagaattam-and-thavil/performance_1.jpeg",
+                            "alt": "Balancing the Karagam",
+                            "modalTitle": "Balancing the Karagam",
+                            "modalContent": "One of the most memorable aspects of Karagaattam is the balancing of the karagam during movement. In ATAM\u2019s dialogue session, participants were introduced to Karagam sets and balancing techniques."
+                        }
+                    }
+                },
+                "presentDay": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2024-2-karagaattam-and-thavil/presentday_1.jpeg",
+                            "alt": "Karagaattam in Singapore Classrooms and Studios",
+                            "modalTitle": "Karagaattam in Singapore Classrooms and Studios",
+                            "modalContent": "Series 2 brought Karagaattam into multiple learning spaces in Singapore, showing how folk arts can be experienced beyond formal stage performances."
+                        }
+                    }
+                },
+                "artists": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2024-2-karagaattam-and-thavil/artist_1.jpeg",
+                            "alt": "Kalaimamani Thenmozhi",
+                            "modalTitle": "Kalaimamani Thenmozhi",
+                            "modalContent": "Karagaattam master Kalaimamani Thenmozhi led the teaching and sharing of the dance form in Nam Marabu Series 2, helping participants understand both its movement vocabulary and its cultural value."
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "name": "Salangai Kittiyattam",
+            "desc": "Kittiyattam is a vibrant and rare Tamil folk dance tradition deeply rooted in the agrarian and temple festival culture of South India.",
+            "sections": {
+                "intro": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2026-1-salangai-kittiyattam/intro_1.jpg",
+                            "alt": "Animated photo of Salangai Kittiyattam",
+                            "modalTitle": "Animated photo of Salangai Kittiyattam",
+                            "modalContent": "Salangai Kittiyattam is a traditional South Indian folk practice where rhythm, movement and devotion come together through the sounding of the salangai \u2014 bells attached to the wooden stick."
+                        }
+                    }
+                },
+                "history": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2026-1-salangai-kittiyattam/history_1.jpg",
+                            "alt": "Kannanthangudi",
+                            "modalTitle": "Kannanthangudi",
+                            "modalContent": "Photo shows the village of Kannanthangudi"
+                        }
+                    }
+                },
+                "performance": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2026-1-salangai-kittiyattam/performance_1.jpg",
+                            "alt": "Salangai",
+                            "modalTitle": "Salangai",
+                            "modalContent": "Salangai is an important element of the dance"
+                        },
+                        "frame2": {
+                            "imageSrc": "/2026-1-salangai-kittiyattam/performance_2.jpg",
+                            "alt": "Parai drum",
+                            "modalTitle": "Parai drum",
+                            "modalContent": "Parai drum is used in the dance"
+                        },
+                        "frame3": {
+                            "imageSrc": "/2026-1-salangai-kittiyattam/performance_3.jpg",
+                            "alt": "Thavil drum",
+                            "modalTitle": "Thavil drum",
+                            "modalContent": "Thavil drum is used in the dance"
+                        }
+                    }
+                },
+                "presentDay": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2026-1-salangai-kittiyattam/presentday_1.jpg",
+                            "alt": "Participants practicing Salangai Kittiyattam",
+                            "modalTitle": "Participants practicing Salangai Kittiyattam",
+                            "modalContent": "Participants practicing Salangai Kittayattam with the traditional chain-attached sticks used in this art form."
+                        }
+                    }
+                },
+                "artists": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2026-1-salangai-kittiyattam/artist_1.jpg",
+                            "alt": "From ATAM website",
+                            "modalTitle": "From ATAM website",
+                            "modalContent": ""
+                        },
+                        "frame2": {
+                            "imageSrc": "/2026-1-salangai-kittiyattam/artist_2.jpg",
+                            "alt": "The artist interview with Tamil Murasu",
+                            "modalTitle": "The artist interview with Tamil Murasu",
+                            "modalContent": ""
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "name": "Tholpaavai Koothu",
+            "desc": "A form of shadow puppetry practiced in Kerala and Tamil Nadu",
+            "sections": {
+                "intro": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2026-3-tholpaavai-koothu/intro_1.jpg",
+                            "alt": "Scene from Tholpaavai Koothu",
+                            "modalTitle": "Scene from Tholpaavai Koothu",
+                            "modalContent": "The photo shows a scene from Tholpaavai Koothu performance."
+                        }
+                    }
+                },
+                "history": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2026-3-tholpaavai-koothu/history_1.jpg",
+                            "alt": "Bhadrakali",
+                            "modalTitle": "Bhadrakali",
+                            "modalContent": "Photo showing the image of Bhadrakali (Goddess in Hindu customs)"
+                        }
+                    }
+                },
+                "performance": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2026-3-tholpaavai-koothu/performance_1.png",
+                            "alt": "Koothu Madam",
+                            "modalTitle": "Koothu Madam",
+                            "modalContent": "These are permanent high stages for the conduct of the show in all the Bhagvati temples. \n\nIt is known as \u201cKoothu Madam\u201d meaning shadow play theatre. usually the length of \u201cKoothu Madam\u201d will be 42 feet and 8 feet in there will be curtain through out in front of the madam and the puppet show behind will conduct the shadow play with the help of burning oil wick lamps . \n\nUsually the curtain should face the deity of the temples. The upper portion of the curtain will be white in color and the lower part will be black. \n\nPuppets are held or mobilized between the lamps and the curtain so as to develop the sharp shadows on the curtain. The puppets are fixed on the screen."
+                        },
+                        "frame2": {
+                            "imageSrc": "/2026-3-tholpaavai-koothu/performance_2.png",
+                            "alt": "Illumination",
+                            "modalTitle": "Illumination",
+                            "modalContent": "On the wooden beam \u2013vilaku madam \u2013 behind the curtain are placed 21 lighted lamps equidistant from each other. Husked coconuts cut in halves serve as lamps, half filled with coconut oil and lit with cotton wicks set in a row from one end of the stage to the other. They illuminate the screen uniformly.\n\nIn a few temples however, cressets \u2013chiratu- made of clay have been used instead. Cresset lamps, with an upper and lower compartment, are specially made for Tholpaavai Koothu. The upper cresset is the lamp, oil is poured in to it and the wick is lighted. The lower compartment has holes where water is poured, preventing the clay lamp from getting over heated."
+                        },
+                        "frame3": {
+                            "imageSrc": "/2026-3-tholpaavai-koothu/performance_3.png",
+                            "alt": "Musical Instruments",
+                            "modalTitle": "Musical Instruments",
+                            "modalContent": "The chief accompaniments for Tholpaavai Koothu are drum - Ezhupara , Madahalam, Kuzhal, Ilathalam, Conch, Chilanka.\n\nTo add to the dramatic impart of certain scenes the arists produce special sound effects and also recite Vaitaris - rhythmic syllables. A fight scene is accented by cries of Sapai Sapai from behind the stage.\n\nThe performance is accompanied by the recitation of slokas and the performers are required to learn over 3000 of these before they perform. The recitation is accompanied by the musical instruments."
+                        }
+                    }
+                },
+                "presentDay": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2026-3-tholpaavai-koothu/presentday_1.png",
+                            "alt": "Summer Outdoor Series Kerala",
+                            "modalTitle": "Summer Outdoor Series Kerala",
+                            "modalContent": "An event in Kerala for people to try using the handmade leather puppets, with guidance from visiting artists and then see a proper performance later on.\n\nhttps://www.puppetshowplace.org/calendar/2023/08/10/tholpavakoothu-ramayana-shadow-puppet-play-of-kerala?"
+                        }
+                    }
+                },
+                "artists": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2026-3-tholpaavai-koothu/artist_1.jpg",
+                            "alt": "Muthuchandran",
+                            "modalTitle": "Muthuchandran",
+                            "modalContent": "Mr. Muthuchandran is a 6th-generation puppeteer and \"Kalaimamani\" awardee capable of performing in 30 distinct voices."
+                        },
+                        "frame2": {
+                            "imageSrc": "/2026-3-tholpaavai-koothu/artist_2.jpg",
+                            "alt": "Muthumurugan",
+                            "modalTitle": "Muthumurugan",
+                            "modalContent": "A specialist in the intricate carving of leather puppets, maintaining a joint family legacy where the craft is a living household practice. He is the brother of Muthumurugan."
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "name": "Sakkai Kutchi Aattam",
+            "desc": "Sakkai Kuchi Atam or Sakkaiyattam is a traditional folk dance originating from Tamil Nadu. Traditionally it involves using the fingers to strike four linked pieces of teak wood to produce sound. Nowadays, as it's more widely practiced modern form, performers use both hands to strike bamboo poles\u2014about two feet in length\u2014to create rhythmic music for the dance.",
+            "sections": {
+                "intro": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2025-1-sakkai-kutchi-aattam/intro_1.jpg",
+                            "alt": "Sakkai Kutchi Aattam performance",
+                            "modalTitle": "Sakkai Kutchi Aattam performance",
+                            "modalContent": "They are performing this dance"
+                        }
+                    }
+                },
+                "history": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2025-1-sakkai-kutchi-aattam/history_1.png",
+                            "alt": "Traditional instrument",
+                            "modalTitle": "Traditional instrument",
+                            "modalContent": "small wooden pieces held between the fingers"
+                        }
+                    }
+                },
+                "performance": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2025-1-sakkai-kutchi-aattam/performance_1.png",
+                            "alt": "ATAM workshop",
+                            "modalTitle": "ATAM workshop",
+                            "modalContent": "People are practicing in pairs."
+                        }
+                    }
+                },
+                "presentDay": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2025-1-sakkai-kutchi-aattam/presentday_1.jpg",
+                            "alt": "Nowadays",
+                            "modalTitle": "Nowadays",
+                            "modalContent": "dance by beating two and a half feet long bamboo sticks in both hands"
+                        }
+                    }
+                },
+                "artists": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2025-1-sakkai-kutchi-aattam/artist_1.png",
+                            "alt": "Mr. Kolanjinathan Baskar",
+                            "modalTitle": "Mr. Kolanjinathan Baskar",
+                            "modalContent": "Kolanjinathan Baskar is a veteran Indian folk artist specializing in Sakkai Kutchi Aattam. He has played an important role in preserving and transmitting this vanishing art through workshops and community engagement initiatives, including the Nam Marabu Series in Singapore."
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "name": "Oyilattam",
+            "desc": "Oyilattam is a traditional Tamil folk dance known for its grace, rhythmic footwork, and lively group movement. The word \u201coyil\u201d is associated with beauty and grace, and the form is often performed with colourful handkerchiefs, ankle bells, and strong rhythmic accompaniment. In ATAM\u2019s Nam Marabu Series 1 (2024), Oyilattam was introduced as one of the iconic Tamil folk dances taught through hands-on workshops for both newcomers and enthusiasts in Singapore.",
+            "sections": {
+                "intro": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2024-1-oyilattam/intro_1.jpeg",
+                            "alt": "Nam Marabu Series 1 (2024)",
+                            "modalTitle": "Nam Marabu Series 1 (2024)",
+                            "modalContent": "ATAM\u2019s first Nam Marabu series introduced Indian traditional folk arts in Singapore through workshops and dialogue sessions led by Kalaimamani Ilangovan. Oyilattam was one of the featured forms shared with participants"
+                        }
+                    }
+                },
+                "history": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2024-1-oyilattam/history_1.jpeg",
+                            "alt": "The Meaning of \u201cOyil\u201d",
+                            "modalTitle": "The Meaning of \u201cOyil\u201d",
+                            "modalContent": "The name Oyilattam is commonly linked to ideas of beauty, grace, and elegance, which reflects the visual style of the dance."
+                        }
+                    }
+                },
+                "performance": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2024-1-oyilattam/performance_1.jpeg",
+                            "alt": "Grace in Group Formation",
+                            "modalTitle": "Grace in Group Formation",
+                            "modalContent": "Oyilattam is often performed as a group dance, with dancers moving in rhythm together, creating a strong sense of energy and coordination."
+                        }
+                    }
+                },
+                "presentDay": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2024-1-oyilattam/presentday_1.jpeg",
+                            "alt": "Oyilattam in Singapore",
+                            "modalTitle": "Oyilattam in Singapore",
+                            "modalContent": "Through Nam Marabu Series 1, Oyilattam was brought into Singapore as a living art form that could be taught, learned, and enjoyed by local participants."
+                        }
+                    }
+                },
+                "artists": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2024-1-oyilattam/artist_1.jpeg",
+                            "alt": "Kalaimamani Ilangovan",
+                            "modalTitle": "Kalaimamani Ilangovan",
+                            "modalContent": "Kalaimamani Ilangovan led the workshops in Nam Marabu Series 1, focusing on Indian traditional folk arts and music."
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "name": "Devarattam",
+            "desc": "Devarattam is a traditional folk dance from Tamil Nadu, India.",
+            "sections": {
+                "intro": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2025-2-devarattam/intro_1.jpeg",
+                            "alt": "Devarattam",
+                            "modalTitle": "Devarattam",
+                            "modalContent": "People are dancing"
+                        }
+                    }
+                },
+                "history": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2025-2-devarattam/history_1.jpeg",
+                            "alt": "No title",
+                            "modalTitle": "No title",
+                            "modalContent": "no description (just for decoration)"
+                        },
+                        "frame2": {
+                            "imageSrc": "/2025-2-devarattam/history_2.jpeg",
+                            "alt": "Pandyan dynasty",
+                            "modalTitle": "Pandyan dynasty",
+                            "modalContent": ""
+                        }
+                    }
+                },
+                "performance": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2025-2-devarattam/performance_1.jpeg",
+                            "alt": "Urumi drum",
+                            "modalTitle": "Urumi drum",
+                            "modalContent": "/"
+                        },
+                        "frame2": {
+                            "imageSrc": "/2025-2-devarattam/performance_2.jpeg",
+                            "alt": "People are dancing",
+                            "modalTitle": "People are dancing",
+                            "modalContent": ""
+                        }
+                    }
+                },
+                "presentDay": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2025-2-devarattam/presentday_1.jpeg",
+                            "alt": "Rajakambalathu Nayakkar community",
+                            "modalTitle": "Rajakambalathu Nayakkar community",
+                            "modalContent": "The Rajakambalathu Nayakkar are a Telugu-origin community believed to have migrated from the Vijayanagar region of Andhra Pradesh and later settled in Tamil Nadu, where they have lived for generations."
+                        },
+                        "frame2": {
+                            "imageSrc": "/2025-2-devarattam/presentday_2.jpeg",
+                            "alt": "presentDay photo",
+                            "modalTitle": "",
+                            "modalContent": ""
+                        }
+                    }
+                },
+                "artists": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2025-2-devarattam/artist_1.png",
+                            "alt": "Nellai Manikandan",
+                            "modalTitle": "Nellai Manikandan",
+                            "modalContent": "Mr Nellai Manikandan is known for his expertise in Oyilattam, Thappattam, Karagam, and Silambam. He was also the master choreographer for Namma Ooru Thiruvizha - Chennai Sangamam in 2023 and 2024."
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "name": "Bihu",
+            "desc": "The Bihu dance is renowned for its energetic and lively movements, reflecting the exuberance of the Bohag Bihu festival that celebrates and welcomes spring and the life-giving spring rain.",
+            "sections": {
+                "intro": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2025-4-bihu-dance/intro_1.png",
+                            "alt": "Nam Marabu Series 3",
+                            "modalTitle": "Nam Marabu Series 3",
+                            "modalContent": "Through a series of workshops and community sessions, ATAM and Mr Gurunathan engaged over 160 participants across diverse age groups and backgrounds. His energetic and participatory teaching style encouraged dialogue around cultural identity and intergenerational transmission of knowledge."
+                        }
+                    }
+                },
+                "history": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2025-4-bihu-dance/history_1.jpeg",
+                            "alt": "Origins of Bihu",
+                            "modalTitle": "Origins of Bihu",
+                            "modalContent": "The earliest references to this traditional dance form can be traced back to the Ahom kingdom, where it was performed as a celebration of the arrival of spring. These historical accounts underscore the enduring cultural significance and heritage of Bihu dance within the Assamese community."
+                        }
+                    }
+                },
+                "performance": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2025-4-bihu-dance/performance_1.jpeg",
+                            "alt": "Bihu Performance",
+                            "modalTitle": "Bihu Performance",
+                            "modalContent": "You can witness the use of instruments like different types of drums and horn-pipes. The dancers move in sync with the lively beats of the dhol, taal, pepa, and gogona, traditional Assamese instruments that create an electrifying ambiance."
+                        }
+                    }
+                },
+                "presentDay": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2025-4-bihu-dance/presentday_1.jpeg",
+                            "alt": "Bihu in Modern Day",
+                            "modalTitle": "Bihu in Modern Day",
+                            "modalContent": "They are more increasingly active due to their want to reconnect with their culture and heritage. Digitalisation has also helped the tradition to reach a wider audience and keep it alive and constantly evolving."
+                        }
+                    }
+                },
+                "artists": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2025-4-bihu-dance/artist_1.jpeg",
+                            "alt": "artists photo",
+                            "modalTitle": "",
+                            "modalContent": "They introduced the cultural roots and celebratory rhythms of Bihu through hands-on sessions that explored its dynamic footwork, clapping patterns, and expressive group movement."
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "name": "Thudumbattam",
+            "desc": "Thudumbattam is a vibrant tribal folk dance from Kerala, India, characterized by rhythmic drumming and synchronized group movements. It is both a musical and dance performance, where the beat of the \u201cthudumbu\u201d drum guides the dancers\u2019 steps.\n\nThe art form emphasizes unity, energy, and cultural expression. It is typically performed in open spaces during festivals and communal gatherings, reflecting the traditions and lifestyle of indigenous communities.",
+            "sections": {
+                "intro": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2025-3-thudumbattam/intro_1.jpeg",
+                            "alt": "Thudumbattam Demonstration",
+                            "modalTitle": "Thudumbattam Demonstration",
+                            "modalContent": "The dance is usually performed during festivals and social gatherings. It reflects community bonding and showcases the cultural identity of the people who perform it."
+                        }
+                    }
+                },
+                "history": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2025-3-thudumbattam/history_1.jpeg",
+                            "alt": "Traditional  Thudumbattam",
+                            "modalTitle": "Traditional  Thudumbattam",
+                            "modalContent": "The dance was traditionally performed during harvest seasons, rituals, and important community events. The use of the \u201cthudumbu\u201d drum plays a key role in its origin and development."
+                        }
+                    }
+                },
+                "performance": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2025-3-thudumbattam/performance_1.jpeg",
+                            "alt": "Thudumbattam Performance",
+                            "modalTitle": "Thudumbattam Performance",
+                            "modalContent": "The performance is led by the thudumbu drum, which sets the pace. Dancers may also chant or sing, and they typically wear traditional attire that represents their tribal identity."
+                        }
+                    }
+                },
+                "presentDay": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2025-3-thudumbattam/presentday_1.jpeg",
+                            "alt": "Thudumbattam Today",
+                            "modalTitle": "Thudumbattam Today",
+                            "modalContent": "Efforts are being made to preserve and promote the dance among younger generations. It is also used in tourism and cultural showcases to increase awareness of indigenous traditions."
+                        }
+                    }
+                },
+                "artists": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2025-3-thudumbattam/artist_1.jpeg",
+                            "alt": "Thudumbattam Workshop",
+                            "modalTitle": "Thudumbattam Workshop",
+                            "modalContent": "Through a series of workshops and community sessions, Mr Gurunathan engaged over 160 participants across diverse age groups and backgrounds. His energetic and participatory teaching style encouraged dialogue around cultural identity and intergenerational transmission of knowledge."
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "name": "Naattupura Paattu (Folk Singing)",
+            "desc": "Tamil folk music, known as Naattupura Paattu, represents the indigenous melodic tradition of the rural Tamil landscape.",
+            "sections": {
+                "intro": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2026-2-naattupura-paattu/intro_1.jpg",
+                            "alt": "Master Artisan: Ms. Suganthi K.",
+                            "modalTitle": "Master Artisan: Ms. Suganthi K.",
+                            "modalContent": "A graduate with a BA in Music, Ms. Suganthi rose to global prominence on \nVijay TV\u2019s Super Singer 7. She famously broke the stigma surrounding folk vocalists by recording for Maestro Ilaiyaraaja in Viduthalai Part 2, proving that folk nuances are as complex as any classical composition."
+                        }
+                    }
+                },
+                "history": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2026-2-naattupura-paattu/history_1.jpg",
+                            "alt": "Ancient Sangam Landscapes",
+                            "modalTitle": "Ancient Sangam Landscapes",
+                            "modalContent": "Early Tamil literature, particularly the Ainkurunuru and Purananuru, contains numerous references to songs associated with specific topographies\u2014such as the Kurinji (mountains) or Marutham (agricultural lands). These songs functioned as a vital oral archive, documenting local histories, social hierarchies, and dialects that were frequently omitted from court-sanctioned literature. Over centuries, these traditions evolved into distinct genres tailored to life transitions, ranging from the celebratory Thalattu (lullaby) to the somber Oppaari (funeral lament)."
+                        }
+                    }
+                },
+                "performance": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2026-2-naattupura-paattu/performance_1.jpg",
+                            "alt": "Open Throated Vocal Technique",
+                            "modalTitle": "Open Throated Vocal Technique",
+                            "modalContent": "This method prioritises raw emotional projection and volume over the refined, microtonal precision found in classical forms. The vocal style is designed to carry across vast open fields or through the din of a crowded festival."
+                        }
+                    }
+                },
+                "presentDay": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2026-2-naattupura-paattu/presentday_1.jpg",
+                            "alt": "Movie Poster featuring Naattupura Paattu",
+                            "modalTitle": "Movie Poster featuring Naattupura Paattu",
+                            "modalContent": "The late 20th century saw a resurgence in its popularity through the work of contemporary collectors and performers who documented thousands of traditional melodies to ensure their survival in the digital age. The influence of folk music is now pervasive in the Tamil film industry (Kollywood), where traditional rhythms and vocal styles are frequently hybridised with electronic and orchestral arrangements."
+                        }
+                    }
+                },
+                "artists": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2026-2-naattupura-paattu/artist_1.jpg",
+                            "alt": "Ms. Suganthi K on Vijay TV Super Singer 7",
+                            "modalTitle": "Ms. Suganthi K on Vijay TV Super Singer 7",
+                            "modalContent": ""
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "name": "Kalbeliya",
+            "desc": "The traditional dance of the Rajasthani nomadic snake-charmer tribe, Kalbeliya is inscribed on the UNESCO Representative List of the Intangible Cultural Heritage of Humanity",
+            "sections": {
+                "intro": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2026-4-kalbeliya/intro_1.jpg",
+                            "alt": "Master Artisan: Ms. Chanana Kalbeliya",
+                            "modalTitle": "Master Artisan: Ms. Chanana Kalbeliya",
+                            "modalContent": "A premier practitioner of the Kalbeliya tradition, Ms. Chanana represents the nomadic heritage of Rajasthan. Her work focuses on preserving the authenticity of the serpentine movements and rhythmic agility that characterize this world-renowned folk form."
+                        }
+                    }
+                },
+                "history": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2026-4-kalbeliya/history_1.jpg",
+                            "alt": "The Kalbeliya Dance",
+                            "modalTitle": "The Kalbeliya Dance",
+                            "modalContent": "The Kalbeliya dance, which is believed to have formed only in the 1980s, reflects their ancient occupation of snake handling and trading venom. Gulabo Sapera, a native of the Kalbeliya community, is credited with transforming and popularising the dance in the 1980s, bringing it to both national and international prominence - a contribution that earned her the Padma Shri in 2016. Women of the tribe would thereafter learn and \nperform Kalbeliya in a range of festivals and showcases."
+                        }
+                    }
+                },
+                "performance": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2026-4-kalbeliya/performance_1.jpg",
+                            "alt": "Pungi",
+                            "modalTitle": "Pungi",
+                            "modalContent": "A traditional South Asian wind instrument, famously used by snake charmers in India and Pakistan. Crafted from a dried bottle gourd and two bamboo pipes."
+                        },
+                        "frame2": {
+                            "imageSrc": "/2026-4-kalbeliya/performance_2.jpg",
+                            "alt": "The Daf and Dholak",
+                            "modalTitle": "The Daf and Dholak",
+                            "modalContent": "The Daf and Dholak are traditional South Asian percussion instruments, often used together in folk music, weddings, and devotional songs. The Daf is a large, single-headed frame drum of Persian origin. The Dholak is a two-headed, barrel-shaped drum played with both hands."
+                        }
+                    }
+                },
+                "presentDay": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2026-4-kalbeliya/presentday_1.jpg",
+                            "alt": "Kalbelia  songs and dances of Rajasthan",
+                            "modalTitle": "Kalbelia  songs and dances of Rajasthan",
+                            "modalContent": "Today, women in flowing black skirts dance and swirl, replicating the movements of a serpent, while men accompany them on the khanjari percussion instrument and the poongi, a woodwind instrument traditionally played to capture snakes."
+                        }
+                    }
+                },
+                "artists": {
+                    "template": "template1",
+                    "content": {
+                        "frame1": {
+                            "imageSrc": "/2026-4-kalbeliya/artist_1.jpg",
+                            "alt": "Ms. Chanana Kalbeliya",
+                            "modalTitle": "Ms. Chanana Kalbeliya",
+                            "modalContent": "A premier practitioner of the Kalbeliya tradition, Ms. Chanana represents the \nnomadic heritage of Rajasthan. Her work focuses on preserving the authenticity of the serpentine movements and rhythmic agility that characterize this world-renowned folk form."
+                        }
+                    }
+                }
+            }
         }
     ]
 }
