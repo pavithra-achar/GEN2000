@@ -3,62 +3,30 @@ import folkarts from "../assets/folkarts/info.json";
 import Background from '../../components/Background';
 import FrameCard from '../../components/FrameCard';
 
-const PresentDay = () => {
-    var { id } = useParams();
-    if(id == null) {
-        id = "0";
-    }
+const Artist = () => {
+  var { id } = useParams();
+  if (id == null) id = "0";
 
-    return (
-        <div className='page bg present-day'>{folkarts.folkarts.at(parseInt(id))?.name}
-    
+  const art = folkarts.folkarts.at(parseInt(id));
+  const { frame1 } = art?.sections?.artists.content ?? {};
+
+  return (
+    <div className='page bg artist'>
+      {art?.name}
       <Background />
       <div className='relative'>
-         <img className='label' src="/label-tilt.png"/>
-        
-         {/* <img className='frame3' src="/frame3.png"/>  */}
-         <FrameCard
-          frameSrc="/frame3.png"
-          imageSrc={folkarts.folkarts.at(parseInt(id))?.sections?.presentDay.content.frame1.imageSrc}
-          alt={folkarts.folkarts.at(parseInt(id))?.sections?.presentDay.content.frame1.alt}
-          modalTitle={folkarts.folkarts.at(parseInt(id))?.sections?.presentDay.content.frame1.modalTitle}
-          modalContent={folkarts.folkarts.at(parseInt(id))?.sections?.presentDay.content.frame1.modalContent}
-          className="frame3"
-          innerClassName=''
-        />
-         {/* <img className='frame2' src="/frame2.png"/> */}
-         <FrameCard
-          frameSrc="/frame2.png"
-          imageSrc={folkarts.folkarts.at(parseInt(id))?.sections?.presentDay.content.frame1.imageSrc}
-          alt={folkarts.folkarts.at(parseInt(id))?.sections?.presentDay.content.frame1.alt}
-          modalTitle={folkarts.folkarts.at(parseInt(id))?.sections?.presentDay.content.frame1.modalTitle}
-          modalContent={folkarts.folkarts.at(parseInt(id))?.sections?.presentDay.content.frame1.modalContent}
-          className="frame2"
-          innerClassName="rotate-[8deg]"
-          innerWrapperClassName="w-[65%] h-[65%] translate-y-[-40%] "
-        />
-    
-         {/* <img className='frame1' src="/frame1.png"/> */}
-        <FrameCard
-          frameSrc="/frame1.png"
-          imageSrc={folkarts.folkarts.at(parseInt(id))?.sections?.presentDay.content.frame1.imageSrc}
-          alt={folkarts.folkarts.at(parseInt(id))?.sections?.presentDay.content.frame1.alt}
-          modalTitle={folkarts.folkarts.at(parseInt(id))?.sections?.presentDay.content.frame1.modalTitle}
-          modalContent={folkarts.folkarts.at(parseInt(id))?.sections?.presentDay.content.frame1.modalContent}
-          className="frame1"
-          innerClassName=''
-        />
-         <img className="lotus"src="/lotus.png"/>
-         
-         <img className='star' src="/star.png"/>
-         <img className='leaf'src="/leaf.png"/>
-         <img className='arrow' src="/arrow.png"/>
+        <img className="master-name" src="/master-name.png" />
 
-         <img className='loopy' src="/loopy.png"/>
-         
+        <FrameCard frameSrc="/frame1.png" className="artist-frame" imageSrc={frame1.imageSrc} alt={frame1.alt} modalTitle={frame1.modalTitle} modalContent={frame1.modalContent} />
+        <FrameCard frameSrc="/frame2.png" className="frame2"       imageSrc={frame1.imageSrc} alt={frame1.alt} modalTitle={frame1.modalTitle} modalContent={frame1.modalContent} />
+        <FrameCard frameSrc="/frame2.png" className="frame3"       imageSrc={frame1.imageSrc} alt={frame1.alt} modalTitle={frame1.modalTitle} modalContent={frame1.modalContent} />
+
+        <img className='leaf z-30' src="/leaf.png" />
+        <img className='star z-30' src="/star.png" />
+        <img className="lotus z-30" src="/lotus.png" />
       </div>
     </div>
-    )
-}
+  );
+};
 
-export default PresentDay;
+export default Artist;
