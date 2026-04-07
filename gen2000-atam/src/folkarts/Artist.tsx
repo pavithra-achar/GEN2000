@@ -10,6 +10,8 @@ const Artist = () => {
   const art = folkarts.folkarts.at(parseInt(id));
   const { frame1 } = art?.sections?.artists.content ?? {};
 
+  const numericId = parseInt(id);
+
   return (
     <div className='page bg artist'>
       {art?.name}

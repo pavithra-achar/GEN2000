@@ -15,12 +15,12 @@ function App() {
     <Navbar/>
       {/* Navigation */}
       <div>
-        <Link to="/home">Home</Link> |{" "}
+        <Link to="/">Home</Link> |{" "}
       </div>
 
       {/* Routes */}
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/art/:id/" element={<Landing />} />
         <Route path="/art/:id/intro" element={<Intro />}/>
         <Route path="/art/:id/artists" element={<Artist />}/>
