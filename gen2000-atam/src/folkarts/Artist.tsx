@@ -15,7 +15,7 @@ const Artist = () => {
       <Background />
       <div className='relative'>
         <img className = "master-name"src="/master-name.png"/>
-       
+       <h3 className='font-grimp'>Why is this font not loading</h3>
        <FrameCard
           frameSrc="/frame1.png"
           imageSrc={folkarts.folkarts.at(parseInt(id))?.sections?.artists.content.frame1.imageSrc}

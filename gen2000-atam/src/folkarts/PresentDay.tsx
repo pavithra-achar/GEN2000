@@ -22,10 +22,10 @@ const PresentDay = () => {
          {/* <img className='frame1' src="/frame1.png"/> */}
         <FrameCard
           frameSrc="/frame1.png"
-          imageSrc="/atam-logo.png"
-          alt="Artist Photo"
-          modalTitle="About the master"
-          modalContent="lorem ipsum..."
+          imageSrc={folkarts.folkarts.at(parseInt(id))?.sections?.presentDay.content.frame1.imageSrc}
+          alt={folkarts.folkarts.at(parseInt(id))?.sections?.presentDay.content.frame1.alt}
+          modalTitle={folkarts.folkarts.at(parseInt(id))?.sections?.presentDay.content.frame1.modalTitle}
+          modalContent={folkarts.folkarts.at(parseInt(id))?.sections?.presentDay.content.frame1.modalContent}
           className="frame1"
           innerClassName=''
         />

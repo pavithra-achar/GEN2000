@@ -1,3 +1,12 @@
+@font-face {
+  font-family: Grimp;
+  src: url("../src/assets/fonts/fonnts.com-grimpt-brushalt.otf") format("opentype");
+}
+
+@theme{
+  --font-grimp: Grimp, "sans-serif"
+}
+
 :root {
   --text: #6b6375;
   --text-h: #08060d;
@@ -475,8 +484,8 @@ position: absolute;
 .present-day .lotus {
        position: fixed;
     bottom: 0;
-    right: 30vw;
-    width: 20vw;
+    right: 30vh;
+    width: 20vh;
     height: auto;
 }
 
