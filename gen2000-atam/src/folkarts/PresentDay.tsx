@@ -16,8 +16,27 @@ const PresentDay = () => {
       <div className='relative'>
          <img className='label' src="/label-tilt.png"/>
         
-         <img className='frame3' src="/frame3.png"/> 
-         <img className='frame2' src="/frame2.png"/>
+         {/* <img className='frame3' src="/frame3.png"/>  */}
+         <FrameCard
+          frameSrc="/frame3.png"
+          imageSrc={folkarts.folkarts.at(parseInt(id))?.sections?.presentDay.content.frame1.imageSrc}
+          alt={folkarts.folkarts.at(parseInt(id))?.sections?.presentDay.content.frame1.alt}
+          modalTitle={folkarts.folkarts.at(parseInt(id))?.sections?.presentDay.content.frame1.modalTitle}
+          modalContent={folkarts.folkarts.at(parseInt(id))?.sections?.presentDay.content.frame1.modalContent}
+          className="frame3"
+          innerClassName=''
+        />
+         {/* <img className='frame2' src="/frame2.png"/> */}
+         <FrameCard
+          frameSrc="/frame2.png"
+          imageSrc={folkarts.folkarts.at(parseInt(id))?.sections?.presentDay.content.frame1.imageSrc}
+          alt={folkarts.folkarts.at(parseInt(id))?.sections?.presentDay.content.frame1.alt}
+          modalTitle={folkarts.folkarts.at(parseInt(id))?.sections?.presentDay.content.frame1.modalTitle}
+          modalContent={folkarts.folkarts.at(parseInt(id))?.sections?.presentDay.content.frame1.modalContent}
+          className="frame2"
+          innerClassName="rotate-[8deg]"
+          innerWrapperClassName="w-[65%] h-[65%] translate-y-[-40%] "
+        />
     
          {/* <img className='frame1' src="/frame1.png"/> */}
         <FrameCard

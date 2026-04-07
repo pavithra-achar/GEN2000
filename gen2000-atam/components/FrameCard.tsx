@@ -8,29 +8,33 @@ interface FrameCardProps {
     modalContent: string;
     className: string;
     innerClassName: string;
+    innerWrapperClassName?: string;
 }
 
 const FrameCard = (props: FrameCardProps) => {
     const [open, setOpen] = useState(false);
     return (
     <>
-       <div className={`cursor-pointer z-20 ${props.className}`}
-            onClick={() => setOpen(true)}>
-            <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                <img
-                    src={props.imageSrc}
-                    alt={props.alt}
-                    className={`object-cover ${
-                    props.innerClassName || "w-[80%] h-[75%]"
-                    }`}
-                />
-            </div>
-            <img
-                src={props.frameSrc}
-                alt="frame"
-                className="relative z-10 w-full h-full pointer-events-none"
-            />
-        </div>
+       <div className={`relative cursor-pointer z-20 ${props.className}`}
+     onClick={() => setOpen(true)}>
+
+  {/* Image inside frame */}
+ <div className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 
+               overflow-hidden ${props.innerWrapperClassName || 'w-[80%] h-[75%]'} ${props.innerClassName}`}>
+  <img
+    src={props.imageSrc}
+    alt={props.alt}
+    className="w-full h-full object-cover"  // no rotation here
+  />
+</div>
+
+  {/* Frame on top */}
+  <img
+    src={props.frameSrc}
+    alt="frame"
+    className="relative z-10 w-full h-full pointer-events-none"
+  />
+</div>
        {open && (
         <div className="fixed inset-0 z-50 flex items-center justify-center">
     

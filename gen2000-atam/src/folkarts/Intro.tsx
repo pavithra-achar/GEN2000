@@ -16,6 +16,7 @@ const Intro = () => {
       <img className="intro-label" src='../../public/label.png'/>
       <img className="intro-bottom-left" src='../../public/frame3.png'/>
       <img className="intro-top-right" src='../../public/frame2.png'/> 
+      
       <img className="intro-loopy" src="../../public/loopy.png"/>
       <img className="sparkle intro-sparkle-left" src="../../public/sparkle.png"/>
       <img className='sparkle intro-sparkle-right' src="../../public/sparkle.png"/>
