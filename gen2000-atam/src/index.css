@@ -3,10 +3,6 @@
   src: url("../src/assets/fonts/fonnts.com-grimpt-brushalt.otf") format("opentype");
 }
 
-@theme{
-  --font-grimp: Grimp, "sans-serif"
-}
-
 :root {
   --text: #6b6375;
   --text-h: #08060d;
@@ -23,6 +19,7 @@
   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
   --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
+  --font-grimp: Grimp, "sans-serif";
 
   --d: 700ms;
   --e: cubic-bezier(0.19, 1, 0.22, 1);
@@ -113,12 +110,14 @@ p {
 
 
 .page {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
   height: 100%;
   width: 100%;
   padding-top: 50px;
   z-index: 51;
+  grid-template-columns: repeat(auto-fit, 250px);
+  row-gap: 15px;
+  column-gap: 15px;
 }
 
 .bg{
@@ -140,6 +139,10 @@ p {
   right: 0px;
   height: 50%;
   bottom: -15px;
+}
+
+.font-grimp {
+  font-family: var(--font-grimp);
 }
 
 code,
@@ -389,9 +392,8 @@ left: 45vw;
   align-items: flex-end;
   overflow: hidden;
   padding: 1rem;
-  height: 70%;
-  width: 250px;
   text-align: center;
+  height: 350px;
   color: whitesmoke;
   background-color: whitesmoke;
   box-shadow:
@@ -404,7 +406,7 @@ left: 45vw;
 
 @media (min-width: 600px) {
   .card {
-    height: 250px;
+    height: 350px;
   }
 }
 

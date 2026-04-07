@@ -56,6 +56,18 @@
                             "alt": "A recipient of the Bismillah Khan Yuva Puraskar",
                             "modalTitle": "A recipient of the Bismillah Khan Yuva Puraskar",
                             "modalContent": "Mr. Murugan was trained under the legendary Purisai Kannappa Thambiran. His career spans traditional village performances and global collaborations (e.g., France\u2019s Th\u00e9\u00e2tre du Soleil), redefining Therukoothu for international audiences."
+                        },
+                        "frame2" : {
+                            "imageSrc" : "/atam-logo.png",
+                            "alt" : "Artwork Photo",
+                            "modalTitle" : "About the artwork",
+                            "modalContent" : "lorem ipsum..."
+                        },
+                        "frame3" : {
+                            "imageSrc" : "/atam-logo.png",
+                            "alt" : "Process Photo",
+                            "modalTitle" : "About the process",
+                            "modalContent" : "lorem ipsum..."
                         }
                     }
                 }
