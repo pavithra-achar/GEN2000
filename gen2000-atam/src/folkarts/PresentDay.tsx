@@ -2,6 +2,7 @@ import { useParams } from 'react-router-dom';
 import folkarts from "../assets/folkarts/info.json";
 import Background from '../../components/Background';
 import FrameCard from '../../components/FrameCard';
+import TextCardTilt from '../../components/TextCardTilt';
 
 const PresentDay = () => {
     var { id } = useParams();
@@ -14,8 +15,8 @@ const PresentDay = () => {
     
       <Background />
       <div className='relative'>
-         <img className='label' src="/label-tilt.png"/>
-        
+         {/* <img className='label' src="/label-tilt.png"/> */}
+        <TextCardTilt className="label" titleclass="label" title={"Present Day"} />
          <img className='frame3' src="/frame3.png"/> 
          <img className='frame2' src="/frame2.png"/>
     

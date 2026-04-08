@@ -2,6 +2,7 @@ import { useParams } from 'react-router-dom';
 import folkarts from "../assets/folkarts/info.json";
 import Background from '../../components/Background';
 import FrameCard from '../../components/FrameCard';
+import TextCard from '../../components/TextCard';
 
 const History = () => {
   var { id } = useParams();
@@ -13,7 +14,8 @@ const History = () => {
     <div className='page bg relative'>{folkarts.folkarts.at(parseInt(id))?.name}
     
       <Background />
-      <img className="history-label" src='../../public/label.png'/>
+      <TextCard className="history-label" title={"History"} />
+      {/* <img className="history-label" src='../../public/label.png'/> */}
       <img className="history-bottom-left" src='../../public/frame2.png'/>
       <img className="history-top-left" src='../../public/frame2.png'/> 
       <FrameCard
@@ -25,7 +27,7 @@ const History = () => {
           className="history-center"
           innerClassName=''
         />
-      <img className="history-center" src='../../public/frame3.png'/> 
+    {/* <img className="history-center" src='../../public/frame3.png'/>  */}
       {/* <img className="history-top-right" src='../../public/frame1.png'/>  */}
       
       <FrameCard

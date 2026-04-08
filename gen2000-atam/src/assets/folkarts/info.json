@@ -68,6 +68,9 @@
                             "alt" : "Process Photo",
                             "modalTitle" : "About the process",
                             "modalContent" : "lorem ipsum..."
+                        },
+                        "title" : {
+
                         }
                     }
                 }

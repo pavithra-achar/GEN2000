@@ -2,6 +2,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom';
 import folkarts from "../assets/folkarts/info.json";
 import Background from '../../components/Background';
+import TextCard from '../../components/TextCard';
 
 const Intro = () => {
   var { id } = useParams();
@@ -13,7 +14,8 @@ const Intro = () => {
     <div className='page bg relative'>{folkarts.folkarts.at(parseInt(id))?.name}
     
       <Background />
-      <img className="intro-label" src='../../public/label.png'/>
+      <TextCard className="intro-label" titleclass="intro-title" title={"Salangai Kittiyattam"} />
+      {/* <img className="intro-label" src='../../public/label.png'/> */}
       <img className="intro-bottom-left" src='../../public/frame3.png'/>
       <img className="intro-top-right" src='../../public/frame2.png'/> 
       <img className="intro-loopy" src="../../public/loopy.png"/>

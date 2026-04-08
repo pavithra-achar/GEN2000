@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import folkarts from "../assets/folkarts/info.json";
 import Background from '../../components/Background';
 import FrameCard from '../../components/FrameCard';
+import TextCard from '../../components/TextCard';
 
 const Performance = () => {
   var { id } = useParams();
@@ -14,7 +15,8 @@ const Performance = () => {
     <div className='page bg relative'>{folkarts.folkarts.at(parseInt(id))?.name}
     
       <Background />
-      <img className="perf-label" src='../../public/label.png'/>
+      <TextCard className="perf-label" titleclass="perf-title" title={"Performance Elements"} />
+      {/* <img className="perf-label" src='../../public/label.png'/> */}
       <img className="perf-top-left" src='../../public/frame2.png'/>
       <img className="perf-top-right" src='../../public/frame2.png'/> 
       <img className="perf-bottom-right" src='../../public/frame3.png'/> 

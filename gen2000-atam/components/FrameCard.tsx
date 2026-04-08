@@ -14,7 +14,7 @@ const FrameCard = (props: FrameCardProps) => {
     const [open, setOpen] = useState(false);
     return (
     <>
-       <div className={`cursor-pointer z-20 ${props.className}`}
+       <div className={`cursor-pointer z-10 ${props.className}`}
             onClick={() => setOpen(true)}>
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
                 <img

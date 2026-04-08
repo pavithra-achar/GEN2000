@@ -141,10 +141,6 @@ p {
   bottom: -15px;
 }
 
-.font-grimp {
-  font-family: var(--font-grimp);
-}
-
 code,
 .counter {
   font-family: var(--mono);
@@ -163,9 +159,15 @@ code {
 .intro-label {
   position: absolute;
   top:30vh;
+  left: 17.5vw;
   height: 25vh;
   width: 65vw;
   z-index: 2;
+}
+
+.intro-title {
+  height: 25vh;
+    width: 65vw; 
 }
 
 .intro-bottom-left {
@@ -242,6 +244,7 @@ code {
 .history-center {
     position: absolute;
     top: 25vh;
+    left: 30vw;
     width: 40vw;
     height: 50vh;
 }
@@ -249,6 +252,7 @@ code {
 .sparkle {
   height :12vh;
   position: absolute;
+  z-index: 3;
 }
 
 .history-sparkle-left {
@@ -270,7 +274,7 @@ code {
 }
 
 .history-flower {
-
+    z-index: 15;
     left: 25vw;
     position: absolute;
     height: 20vh;
@@ -282,8 +286,13 @@ code {
     bottom: 10vh;
     height: 30vh;
     right: 30vw;
+    z-index: 15;
 }
 
+.perf-title {
+   height: 25vh;
+    width: 65vw; 
+}
 
 
 .perf-label {
@@ -352,7 +361,7 @@ left: 45vw;
 }
 
 .perf-lotus {
-    left: 45vw;
+    right: 36vw;
     position: absolute;
     height: 20vh;
     top: 25vh;
@@ -493,9 +502,11 @@ position: absolute;
 
 .present-day .label {
   position: fixed;
-    top: 0;
+    top: 10vh;
     right: 0;
     width: 40vw;
+    
+  z-index: 40;
 }
 
 
@@ -652,6 +663,25 @@ position: fixed;
   outline: 1px dashed yellow;
   outline-offset: 3px;
 }
+
+
+.font-grimp {
+  font-family: var(--font-grimp);
+  font-size: 10vw;
+  padding-top: 4vw;
+  margin: 0px;
+  z-index: 40;
+}
+
+.font-grimp-tilt {
+  font-family: var(--font-grimp);
+  font-size: 10vw;
+  padding-top: 6vw;
+  margin: 0px;
+  transform: rotate(25deg);
+  text-align: right;
+}
+
 
 @media (hover: hover) and (min-width: 600px) {
   .card::after {
