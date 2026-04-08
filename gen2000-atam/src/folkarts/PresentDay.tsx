@@ -5,14 +5,15 @@ import FrameCard from '../../components/FrameCard';
 import TextCardTilt from '../../components/TextCardTilt';
 
 const PresentDay = () => {
-    var { id } = useParams();
-    if(id == null) {
-        id = "0";
-    }
+  var { id } = useParams();
+  if (id == null) id = "0";
 
-    return (
-        <div className='page bg present-day'>{folkarts.folkarts.at(parseInt(id))?.name}
-    
+  const art = folkarts.folkarts.at(parseInt(id));
+  const { frame1 } = art?.sections?.presentDay.content ?? {};
+
+  return (
+    <div className='page bg present-day'>
+      {art?.name}
       <Background />
       <div className='relative'>
          {/* <img className='label' src="/label-tilt.png"/> */}
@@ -36,11 +37,18 @@ const PresentDay = () => {
          <img className='leaf'src="/leaf.png"/>
          <img className='arrow' src="/arrow.png"/>
 
-         <img className='loopy' src="/loopy.png"/>
-         
+        <FrameCard frameSrc="/frame3.png" className="frame3" imageSrc={frame1.imageSrc} alt={frame1.alt} modalTitle={frame1.modalTitle} modalContent={frame1.modalContent} />
+        <FrameCard frameSrc="/frame2.png" className="frame2" imageSrc={frame1.imageSrc} alt={frame1.alt} modalTitle={frame1.modalTitle} modalContent={frame1.modalContent} />
+        <FrameCard frameSrc="/frame1.png" className="frame1" imageSrc={frame1.imageSrc} alt={frame1.alt} modalTitle={frame1.modalTitle} modalContent={frame1.modalContent} />
+
+        <img className="lotus" src="/lotus.png" />
+        <img className='star' src="/star.png" />
+        <img className='leaf' src="/leaf.png" />
+        <img className='arrow' src="/arrow.png" />
+        <img className='loopy' src="/loopy.png" />
       </div>
     </div>
-    )
-}
+  );
+};
 
 export default PresentDay;

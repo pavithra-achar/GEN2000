@@ -436,7 +436,7 @@ position: absolute;
     width: 48vw;
     left: 22vw;
     bottom: 15vh;
-    z-index: 2;
+    z-index: 31;
 }
 
 .artist .artist-frame {
@@ -452,6 +452,7 @@ position: absolute;
     left: 0vw;
     width: 15vw;
     top: 30vh;
+    z-index: 30;
 }
 
 .artist .leaf {
@@ -459,6 +460,7 @@ position: absolute;
     right: 0vw;
     top: 0;
     height: 25vh;
+     z-index: 30;
 }
 
 .artist .frame2 {
@@ -538,6 +540,7 @@ position: absolute;
     right: 15vw;
     top: 5vh;
     width: 30vw;
+     z-index: 30;
 }
 
 .present-day .star {
@@ -545,6 +548,7 @@ position: absolute;
     left: 45vw;
     width: 15vw;
     top: 30vh;
+    z-index: 30;
 }
 
 .present-day .loopy {
@@ -552,6 +556,7 @@ position: absolute;
     top: 0vh;
     width: 20vw;
     left: 3vw;
+     z-index: 30;
 }
 
 
@@ -562,6 +567,7 @@ position: fixed;
     left: -5vw;
     rotate: -90deg;
     height: 30vh;
+     z-index: 30;
 }
 .card::after {
   content: '';
