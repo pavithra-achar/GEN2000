@@ -163,6 +163,9 @@ code {
   height: 25vh;
   width: 65vw;
   z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .intro-title {
@@ -673,8 +676,7 @@ position: fixed;
 
 .font-grimp {
   font-family: var(--font-grimp);
-  font-size: 10vw;
-  padding-top: 4vw;
+  font-size: 8vw;
   margin: 0px;
   z-index: 40;
 }
