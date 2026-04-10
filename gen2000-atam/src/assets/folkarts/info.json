@@ -29,6 +29,24 @@
                             "alt": "Traditional Costume",
                             "modalTitle": "Traditional Costume",
                             "modalContent": "Actors wear ornaments that give them a distinctive, square-like silhouette, signifying their non-human or heroic status. Makeup is bold and symbolic, often using a white base with fierce red and black strokes to denote specific character archetypes."
+                        },
+                        "frame2": {
+                            "imageSrc": "/2026-5-therukoothu/history_1.jpg",
+                            "alt": "Traditional Costume",
+                            "modalTitle": "Traditional Costume",
+                            "modalContent": "Actors wear ornaments that give them a distinctive, square-like silhouette, signifying their non-human or heroic status. Makeup is bold and symbolic, often using a white base with fierce red and black strokes to denote specific character archetypes."
+                        },
+                        "frame3": {
+                            "imageSrc": "/2026-5-therukoothu/history_1.jpg",
+                            "alt": "Traditional Costume",
+                            "modalTitle": "Traditional Costume",
+                            "modalContent": "Actors wear ornaments that give them a distinctive, square-like silhouette, signifying their non-human or heroic status. Makeup is bold and symbolic, often using a white base with fierce red and black strokes to denote specific character archetypes."
+                        },
+                        "frame4": {
+                            "imageSrc": "/2026-5-therukoothu/history_1.jpg",
+                            "alt": "Traditional Costume",
+                            "modalTitle": "Traditional Costume",
+                            "modalContent": "Actors wear ornaments that give them a distinctive, square-like silhouette, signifying their non-human or heroic status. Makeup is bold and symbolic, often using a white base with fierce red and black strokes to denote specific character archetypes."
                         }
                     }
                 },
@@ -36,6 +54,24 @@
                     "template": "template1",
                     "content": {
                         "frame1": {
+                            "imageSrc": "/2026-5-therukoothu/performance_1.jpeg",
+                            "alt": "Photo: M. Karunakaran",
+                            "modalTitle": "Photo: M. Karunakaran",
+                            "modalContent": "Shri Bavaani Amman Therukkoothu Nataka Manram, Kanchipuram, presented \"Alamugasooran Samhaaram\", an unusual story of Arjuna being helped by Draupadi, who takes on the Kali avatara to kill the asura."
+                        },
+                        "frame2": {
+                            "imageSrc": "/2026-5-therukoothu/performance_1.jpeg",
+                            "alt": "Photo: M. Karunakaran",
+                            "modalTitle": "Photo: M. Karunakaran",
+                            "modalContent": "Shri Bavaani Amman Therukkoothu Nataka Manram, Kanchipuram, presented \"Alamugasooran Samhaaram\", an unusual story of Arjuna being helped by Draupadi, who takes on the Kali avatara to kill the asura."
+                        },
+                        "frame3": {
+                            "imageSrc": "/2026-5-therukoothu/performance_1.jpeg",
+                            "alt": "Photo: M. Karunakaran",
+                            "modalTitle": "Photo: M. Karunakaran",
+                            "modalContent": "Shri Bavaani Amman Therukkoothu Nataka Manram, Kanchipuram, presented \"Alamugasooran Samhaaram\", an unusual story of Arjuna being helped by Draupadi, who takes on the Kali avatara to kill the asura."
+                        },
+                        "frame4": {
                             "imageSrc": "/2026-5-therukoothu/performance_1.jpeg",
                             "alt": "Photo: M. Karunakaran",
                             "modalTitle": "Photo: M. Karunakaran",
@@ -51,12 +87,25 @@
                             "alt": "Modern Day Female Performers",
                             "modalTitle": "Modern Day Female Performers",
                             "modalContent": "While traditionally a male-dominated art form where men performed female roles (sthreepart), modern troupes have increasingly begun to include female performers, reflecting shifting social dynamics within rural Tamil Nadu."
+                        },
+                        "frame2": {
+                            "imageSrc": "/2026-5-therukoothu/presentday_1.jpeg",
+                            "alt": "Modern Day Female Performers",
+                            "modalTitle": "Modern Day Female Performers",
+                            "modalContent": "While traditionally a male-dominated art form where men performed female roles (sthreepart), modern troupes have increasingly begun to include female performers, reflecting shifting social dynamics within rural Tamil Nadu."
+                        },
+                        "frame3": {
+                            "imageSrc": "/2026-5-therukoothu/presentday_1.jpeg",
+                            "alt": "Modern Day Female Performers",
+                            "modalTitle": "Modern Day Female Performers",
+                            "modalContent": "While traditionally a male-dominated art form where men performed female roles (sthreepart), modern troupes have increasingly begun to include female performers, reflecting shifting social dynamics within rural Tamil Nadu."
                         }
                     }
                 },
                 "artists": {
                     "template": "template1",
                     "content": {
+                        "name": "",
                         "frame1": {
                             "imageSrc": "/2026-5-therukoothu/artist_1.png",
                             "alt": "A recipient of the Bismillah Khan Yuva Puraskar",
@@ -74,9 +123,6 @@
                             "alt" : "Process Photo",
                             "modalTitle" : "About the process",
                             "modalContent" : "lorem ipsum..."
-                        },
-                        "title" : {
-
                         }
                     }
                 }
@@ -94,6 +140,12 @@
                             "alt": "Nam Marabu Series 3",
                             "modalTitle": "Nam Marabu Series 3",
                             "modalContent": "With over 220 participants from West Spring Primary School, National Junior College, Temasek Polytechnic, and organizations like Omkar Arts and Damaru Singapore, the events included hands-on drumming sessions, dialogues, and Q&A interactions."
+                        },
+                        "frame2": {
+                            "imageSrc": "/2024-3-parai-aattam/intro_1.png",
+                            "alt": "Nam Marabu Series 3",
+                            "modalTitle": "Nam Marabu Series 3",
+                            "modalContent": "With over 220 participants from West Spring Primary School, National Junior College, Temasek Polytechnic, and organizations like Omkar Arts and Damaru Singapore, the events included hands-on drumming sessions, dialogues, and Q&A interactions."
                         }
                     }
                 },
@@ -101,6 +153,24 @@
                     "template": "template1",
                     "content": {
                         "frame1": {
+                            "imageSrc": "/2024-3-parai-aattam/history_1.jpg",
+                            "alt": "An ancient folk dance and art form, pre-Sangam",
+                            "modalTitle": "An ancient folk dance and art form, pre-Sangam",
+                            "modalContent": "Historically, it served as a crucial communication tool for announcements, war, farming, and celebrations before being restricted to funerals due to caste-based stigma, but is now witnessing a resurgence as a symbol of cultural identity and resistance."
+                        },
+                        "frame2": {
+                            "imageSrc": "/2024-3-parai-aattam/history_1.jpg",
+                            "alt": "An ancient folk dance and art form, pre-Sangam",
+                            "modalTitle": "An ancient folk dance and art form, pre-Sangam",
+                            "modalContent": "Historically, it served as a crucial communication tool for announcements, war, farming, and celebrations before being restricted to funerals due to caste-based stigma, but is now witnessing a resurgence as a symbol of cultural identity and resistance."
+                        },
+                        "frame3": {
+                            "imageSrc": "/2024-3-parai-aattam/history_1.jpg",
+                            "alt": "An ancient folk dance and art form, pre-Sangam",
+                            "modalTitle": "An ancient folk dance and art form, pre-Sangam",
+                            "modalContent": "Historically, it served as a crucial communication tool for announcements, war, farming, and celebrations before being restricted to funerals due to caste-based stigma, but is now witnessing a resurgence as a symbol of cultural identity and resistance."
+                        },
+                        "frame4": {
                             "imageSrc": "/2024-3-parai-aattam/history_1.jpg",
                             "alt": "An ancient folk dance and art form, pre-Sangam",
                             "modalTitle": "An ancient folk dance and art form, pre-Sangam",
@@ -116,6 +186,24 @@
                             "alt": "Participants during the workshop",
                             "modalTitle": "Participants during the workshop",
                             "modalContent": "It is played with two distinct sticks: Adi Kucchi: A short, thick stick (approx. 18 cm) used for the base note and Sunddu Kucchi: A long, thin stick (approx. 28 cm) for higher-pitched, faster beats."
+                        },
+                        "frame2": {
+                            "imageSrc": "/2024-3-parai-aattam/performance_1.png",
+                            "alt": "Participants during the workshop",
+                            "modalTitle": "Participants during the workshop",
+                            "modalContent": "It is played with two distinct sticks: Adi Kucchi: A short, thick stick (approx. 18 cm) used for the base note and Sunddu Kucchi: A long, thin stick (approx. 28 cm) for higher-pitched, faster beats."
+                        },
+                        "frame3": {
+                            "imageSrc": "/2024-3-parai-aattam/performance_1.png",
+                            "alt": "Participants during the workshop",
+                            "modalTitle": "Participants during the workshop",
+                            "modalContent": "It is played with two distinct sticks: Adi Kucchi: A short, thick stick (approx. 18 cm) used for the base note and Sunddu Kucchi: A long, thin stick (approx. 28 cm) for higher-pitched, faster beats."
+                        },
+                        "frame4": {
+                            "imageSrc": "/2024-3-parai-aattam/performance_1.png",
+                            "alt": "Participants during the workshop",
+                            "modalTitle": "Participants during the workshop",
+                            "modalContent": "It is played with two distinct sticks: Adi Kucchi: A short, thick stick (approx. 18 cm) used for the base note and Sunddu Kucchi: A long, thin stick (approx. 28 cm) for higher-pitched, faster beats."
                         }
                     }
                 },
@@ -127,13 +215,38 @@
                             "alt": "Younger generation trying their hands at the instrument",
                             "modalTitle": "Younger generation trying their hands at the instrument",
                             "modalContent": "By introducing Parai Aatam to young students, the Nam Marabu Series ensured that the younger generation developed an early appreciation for their cultural heritage, cultivating pride and encouraging continued learning and practice."
+                        },
+                        "frame2": {
+                            "imageSrc": "/2024-3-parai-aattam/presentday_1.png",
+                            "alt": "Younger generation trying their hands at the instrument",
+                            "modalTitle": "Younger generation trying their hands at the instrument",
+                            "modalContent": "By introducing Parai Aatam to young students, the Nam Marabu Series ensured that the younger generation developed an early appreciation for their cultural heritage, cultivating pride and encouraging continued learning and practice."
+                        },
+                        "frame3": {
+                            "imageSrc": "/2024-3-parai-aattam/presentday_1.png",
+                            "alt": "Younger generation trying their hands at the instrument",
+                            "modalTitle": "Younger generation trying their hands at the instrument",
+                            "modalContent": "By introducing Parai Aatam to young students, the Nam Marabu Series ensured that the younger generation developed an early appreciation for their cultural heritage, cultivating pride and encouraging continued learning and practice."
                         }
                     }
                 },
                 "artists": {
                     "template": "template1",
                     "content": {
+                        "name": "Mr Velu Aasan",
                         "frame1": {
+                            "imageSrc": "/2024-3-parai-aattam/artist_1.png",
+                            "alt": "Mr Velu Aasan",
+                            "modalTitle": "Mr Velu Aasan",
+                            "modalContent": "Legendary Parai artiste and 2025 Padma Shri awardee"
+                        },
+                        "frame2": {
+                            "imageSrc": "/2024-3-parai-aattam/artist_1.png",
+                            "alt": "Mr Velu Aasan",
+                            "modalTitle": "Mr Velu Aasan",
+                            "modalContent": "Legendary Parai artiste and 2025 Padma Shri awardee"
+                        },
+                        "frame3": {
                             "imageSrc": "/2024-3-parai-aattam/artist_1.png",
                             "alt": "Mr Velu Aasan",
                             "modalTitle": "Mr Velu Aasan",
@@ -155,6 +268,12 @@
                             "alt": "Nam Marabu Series 2 (2024)",
                             "modalTitle": "Nam Marabu Series 2 (2024)",
                             "modalContent": "Held from 8 to 11 May 2024, Nam Marabu Series 2 introduced Karagaattam and Thavil through an in-house dialogue session at the Indian Heritage Centre and outreach workshops across studios and schools in Singapore. The series brought the folk art closer to students, dance enthusiasts, and first-time learners."
+                        },
+                        "frame2": {
+                            "imageSrc": "/2024-2-karagaattam-and-thavil/intro_1.jpeg",
+                            "alt": "Nam Marabu Series 2 (2024)",
+                            "modalTitle": "Nam Marabu Series 2 (2024)",
+                            "modalContent": "Held from 8 to 11 May 2024, Nam Marabu Series 2 introduced Karagaattam and Thavil through an in-house dialogue session at the Indian Heritage Centre and outreach workshops across studios and schools in Singapore. The series brought the folk art closer to students, dance enthusiasts, and first-time learners."
                         }
                     }
                 },
@@ -162,6 +281,24 @@
                     "template": "template1",
                     "content": {
                         "frame1": {
+                            "imageSrc": "/2024-2-karagaattam-and-thavil/history_1.jpeg",
+                            "alt": "Why the Pot Matters",
+                            "modalTitle": "Why the Pot Matters",
+                            "modalContent": "The word \u201cKaragaattam\u201d points directly to its central symbol: the karagam, or decorated pot. In performance, the pot is not just a prop. It carries ritual, visual, and cultural meaning."
+                        },
+                        "frame2": {
+                            "imageSrc": "/2024-2-karagaattam-and-thavil/history_1.jpeg",
+                            "alt": "Why the Pot Matters",
+                            "modalTitle": "Why the Pot Matters",
+                            "modalContent": "The word \u201cKaragaattam\u201d points directly to its central symbol: the karagam, or decorated pot. In performance, the pot is not just a prop. It carries ritual, visual, and cultural meaning."
+                        },
+                        "frame3": {
+                            "imageSrc": "/2024-2-karagaattam-and-thavil/history_1.jpeg",
+                            "alt": "Why the Pot Matters",
+                            "modalTitle": "Why the Pot Matters",
+                            "modalContent": "The word \u201cKaragaattam\u201d points directly to its central symbol: the karagam, or decorated pot. In performance, the pot is not just a prop. It carries ritual, visual, and cultural meaning."
+                        },
+                        "frame4": {
                             "imageSrc": "/2024-2-karagaattam-and-thavil/history_1.jpeg",
                             "alt": "Why the Pot Matters",
                             "modalTitle": "Why the Pot Matters",
@@ -177,6 +314,24 @@
                             "alt": "Balancing the Karagam",
                             "modalTitle": "Balancing the Karagam",
                             "modalContent": "One of the most memorable aspects of Karagaattam is the balancing of the karagam during movement. In ATAM\u2019s dialogue session, participants were introduced to Karagam sets and balancing techniques."
+                        },
+                        "frame2": {
+                            "imageSrc": "/2024-2-karagaattam-and-thavil/history_1.jpeg",
+                            "alt": "Why the Pot Matters",
+                            "modalTitle": "Why the Pot Matters",
+                            "modalContent": "The word \u201cKaragaattam\u201d points directly to its central symbol: the karagam, or decorated pot. In performance, the pot is not just a prop. It carries ritual, visual, and cultural meaning."
+                        },
+                        "frame3": {
+                            "imageSrc": "/2024-2-karagaattam-and-thavil/history_1.jpeg",
+                            "alt": "Why the Pot Matters",
+                            "modalTitle": "Why the Pot Matters",
+                            "modalContent": "The word \u201cKaragaattam\u201d points directly to its central symbol: the karagam, or decorated pot. In performance, the pot is not just a prop. It carries ritual, visual, and cultural meaning."
+                        },
+                        "frame4": {
+                            "imageSrc": "/2024-2-karagaattam-and-thavil/history_1.jpeg",
+                            "alt": "Why the Pot Matters",
+                            "modalTitle": "Why the Pot Matters",
+                            "modalContent": "The word \u201cKaragaattam\u201d points directly to its central symbol: the karagam, or decorated pot. In performance, the pot is not just a prop. It carries ritual, visual, and cultural meaning."
                         }
                     }
                 },
@@ -188,13 +343,38 @@
                             "alt": "Karagaattam in Singapore Classrooms and Studios",
                             "modalTitle": "Karagaattam in Singapore Classrooms and Studios",
                             "modalContent": "Series 2 brought Karagaattam into multiple learning spaces in Singapore, showing how folk arts can be experienced beyond formal stage performances."
+                        },
+                        "frame2": {
+                            "imageSrc": "/2024-2-karagaattam-and-thavil/history_1.jpeg",
+                            "alt": "Why the Pot Matters",
+                            "modalTitle": "Why the Pot Matters",
+                            "modalContent": "The word \u201cKaragaattam\u201d points directly to its central symbol: the karagam, or decorated pot. In performance, the pot is not just a prop. It carries ritual, visual, and cultural meaning."
+                        },
+                        "frame3": {
+                            "imageSrc": "/2024-2-karagaattam-and-thavil/history_1.jpeg",
+                            "alt": "Why the Pot Matters",
+                            "modalTitle": "Why the Pot Matters",
+                            "modalContent": "The word \u201cKaragaattam\u201d points directly to its central symbol: the karagam, or decorated pot. In performance, the pot is not just a prop. It carries ritual, visual, and cultural meaning."
                         }
                     }
                 },
                 "artists": {
+                    "name": "Kalaimamani Thenmozh",
                     "template": "template1",
                     "content": {
                         "frame1": {
+                            "imageSrc": "/2024-2-karagaattam-and-thavil/artist_1.jpeg",
+                            "alt": "Kalaimamani Thenmozhi",
+                            "modalTitle": "Kalaimamani Thenmozhi",
+                            "modalContent": "Karagaattam master Kalaimamani Thenmozhi led the teaching and sharing of the dance form in Nam Marabu Series 2, helping participants understand both its movement vocabulary and its cultural value."
+                        },
+                        "frame2": {
+                            "imageSrc": "/2024-2-karagaattam-and-thavil/artist_1.jpeg",
+                            "alt": "Kalaimamani Thenmozhi",
+                            "modalTitle": "Kalaimamani Thenmozhi",
+                            "modalContent": "Karagaattam master Kalaimamani Thenmozhi led the teaching and sharing of the dance form in Nam Marabu Series 2, helping participants understand both its movement vocabulary and its cultural value."
+                        },
+                        "frame3": {
                             "imageSrc": "/2024-2-karagaattam-and-thavil/artist_1.jpeg",
                             "alt": "Kalaimamani Thenmozhi",
                             "modalTitle": "Kalaimamani Thenmozhi",
@@ -216,6 +396,12 @@
                             "alt": "Animated photo of Salangai Kittiyattam",
                             "modalTitle": "Animated photo of Salangai Kittiyattam",
                             "modalContent": "Salangai Kittiyattam is a traditional South Indian folk practice where rhythm, movement and devotion come together through the sounding of the salangai \u2014 bells attached to the wooden stick."
+                        },
+                         "frame2": {
+                            "imageSrc": "/2026-1-salangai-kittiyattam/intro_1.jpg",
+                            "alt": "Animated photo of Salangai Kittiyattam",
+                            "modalTitle": "Animated photo of Salangai Kittiyattam",
+                            "modalContent": "Salangai Kittiyattam is a traditional South Indian folk practice where rhythm, movement and devotion come together through the sounding of the salangai \u2014 bells attached to the wooden stick."
                         }
                     }
                 },
@@ -223,6 +409,24 @@
                     "template": "template1",
                     "content": {
                         "frame1": {
+                            "imageSrc": "/2026-1-salangai-kittiyattam/history_1.jpg",
+                            "alt": "Kannanthangudi",
+                            "modalTitle": "Kannanthangudi",
+                            "modalContent": "Photo shows the village of Kannanthangudi"
+                        },
+                        "frame2": {
+                            "imageSrc": "/2026-1-salangai-kittiyattam/history_1.jpg",
+                            "alt": "Kannanthangudi",
+                            "modalTitle": "Kannanthangudi",
+                            "modalContent": "Photo shows the village of Kannanthangudi"
+                        },
+                        "frame3": {
+                            "imageSrc": "/2026-1-salangai-kittiyattam/history_1.jpg",
+                            "alt": "Kannanthangudi",
+                            "modalTitle": "Kannanthangudi",
+                            "modalContent": "Photo shows the village of Kannanthangudi"
+                        },
+                        "frame4": {
                             "imageSrc": "/2026-1-salangai-kittiyattam/history_1.jpg",
                             "alt": "Kannanthangudi",
                             "modalTitle": "Kannanthangudi",
@@ -250,6 +454,12 @@
                             "alt": "Thavil drum",
                             "modalTitle": "Thavil drum",
                             "modalContent": "Thavil drum is used in the dance"
+                        },
+                         "frame4": {
+                            "imageSrc": "/2026-1-salangai-kittiyattam/performance_3.jpg",
+                            "alt": "Thavil drum",
+                            "modalTitle": "Thavil drum",
+                            "modalContent": "Thavil drum is used in the dance"
                         }
                     }
                 },
@@ -261,11 +471,24 @@
                             "alt": "Participants practicing Salangai Kittiyattam",
                             "modalTitle": "Participants practicing Salangai Kittiyattam",
                             "modalContent": "Participants practicing Salangai Kittayattam with the traditional chain-attached sticks used in this art form."
+                        },
+                        "frame2": {
+                            "imageSrc": "/2026-1-salangai-kittiyattam/presentday_1.jpg",
+                            "alt": "Participants practicing Salangai Kittiyattam",
+                            "modalTitle": "Participants practicing Salangai Kittiyattam",
+                            "modalContent": "Participants practicing Salangai Kittayattam with the traditional chain-attached sticks used in this art form."
+                        },
+                        "frame3": {
+                            "imageSrc": "/2026-1-salangai-kittiyattam/presentday_1.jpg",
+                            "alt": "Participants practicing Salangai Kittiyattam",
+                            "modalTitle": "Participants practicing Salangai Kittiyattam",
+                            "modalContent": "Participants practicing Salangai Kittayattam with the traditional chain-attached sticks used in this art form."
                         }
                     }
                 },
                 "artists": {
                     "template": "template1",
+                    "name" : "Tamil Murasu",
                     "content": {
                         "frame1": {
                             "imageSrc": "/2026-1-salangai-kittiyattam/artist_1.jpg",
@@ -274,6 +497,12 @@
                             "modalContent": ""
                         },
                         "frame2": {
+                            "imageSrc": "/2026-1-salangai-kittiyattam/artist_2.jpg",
+                            "alt": "The artist interview with Tamil Murasu",
+                            "modalTitle": "The artist interview with Tamil Murasu",
+                            "modalContent": ""
+                        },
+                        "frame3": {
                             "imageSrc": "/2026-1-salangai-kittiyattam/artist_2.jpg",
                             "alt": "The artist interview with Tamil Murasu",
                             "modalTitle": "The artist interview with Tamil Murasu",

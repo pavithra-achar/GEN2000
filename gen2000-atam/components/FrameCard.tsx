@@ -27,7 +27,7 @@ const FrameCard = (props: FrameCardProps) => {
 
   return (
     <>
-      <div className={`relative cursor-pointer z-20 ${props.className}`} onClick={() => setOpen(true)}>
+      <div className={`cursor-pointer z-1 ${props.className}`} onClick={() => setOpen(true)}>
         <div className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 overflow-hidden ${innerWrapperClassName} ${innerClassName}`}>
           <img src={props.imageSrc} alt={props.alt} className="w-full h-full object-cover" />
         </div>
