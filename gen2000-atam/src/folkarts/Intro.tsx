@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import folkarts from "../assets/folkarts/info.json";
 import Background from '../../components/Background';
 import TextCard from '../../components/TextCard';
+import Arrow from '../../components/Arrow';
 
 const Intro = () => {
   var { id } = useParams();
@@ -23,6 +24,7 @@ const Intro = () => {
       <img className="sparkle intro-sparkle-left" src="../../public/sparkle.png"/>
       <img className='sparkle intro-sparkle-right' src="../../public/sparkle.png"/>
 
+      <Arrow className="nav-arrow-right" link={`/art/${id}/history`} src="right" />
     </div>
   )
 }

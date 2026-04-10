@@ -3,6 +3,7 @@ import folkarts from "../assets/folkarts/info.json";
 import Background from '../../components/Background';
 import FrameCard from '../../components/FrameCard';
 import TextCardTilt from '../../components/TextCardTilt';
+import Arrow from '../../components/Arrow';
 
 const PresentDay = () => {
   var { id } = useParams();
@@ -12,10 +13,10 @@ const PresentDay = () => {
   const { frame1 } = art?.sections?.presentDay.content ?? {};
 
   return (
-    <div className='page bg present-day'>
+    <div className='page bg relative present-day'>
       {art?.name}
       <Background />
-      <div className='relative'>
+      <div className=''>
          {/* <img className='label' src="/label-tilt.png"/> */}
         <TextCardTilt className="label" titleclass="label" title={"Present Day"} />
          <img className='frame3' src="/frame3.png"/> 
@@ -46,6 +47,9 @@ const PresentDay = () => {
         <img className='leaf' src="/leaf.png" />
         <img className='arrow' src="/arrow.png" />
         <img className='loopy' src="/loopy.png" />
+
+        <Arrow className="nav-arrow-right" link={`/art/${id}/performance`} src="right" />
+      <Arrow className="nav-arrow-left" link={`/art/${id}/history`} src="left" />
       </div>
     </div>
   );

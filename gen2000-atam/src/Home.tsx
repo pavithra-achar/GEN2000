@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import folkarts from "./assets/folkarts/info.json";
 
 const Home = () => {
-
+  
   return (
     <div className='page'>
     {

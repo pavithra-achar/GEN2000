@@ -4,6 +4,7 @@ import folkarts from "../assets/folkarts/info.json";
 import Background from '../../components/Background';
 import FrameCard from '../../components/FrameCard';
 import TextCard from '../../components/TextCard';
+import Arrow from '../../components/Arrow';
 
 const Performance = () => {
   var { id } = useParams();
@@ -36,6 +37,9 @@ const Performance = () => {
       <img className='sparkle perf-sparkle-right' src="../../public/sparkle.png"/>
       <img className="perf-star" src="../../public/star.png"/>
       <img className="perf-lotus" src="../../public/lotus.png"/>
+
+      <Arrow className="nav-arrow-right" link={`/art/${id}/artists`} src="right" />
+      <Arrow className="nav-arrow-left" link={`/art/${id}/presentDay`} src="left" />
     </div>
   )
 }

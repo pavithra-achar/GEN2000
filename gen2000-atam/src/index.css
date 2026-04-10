@@ -499,10 +499,6 @@ position: absolute;
   pointer-events: none;
 }
 
-.present-day {
-
-}
-
 .present-day .lotus {
        position: fixed;
     bottom: 0;
@@ -578,6 +574,24 @@ position: fixed;
     height: 30vh;
      z-index: 30;
 }
+
+.nav-arrow-right {
+  position: absolute;
+    right: 15px;
+    bottom: 15px;
+    width: 6vw;
+    z-index: 30;
+}
+
+.nav-arrow-left {
+  position: absolute;
+    left: 15px;
+    bottom: 15px;
+    width: 6vw;
+    z-index: 30;
+}
+
+
 .card::after {
   content: '';
   display: block;

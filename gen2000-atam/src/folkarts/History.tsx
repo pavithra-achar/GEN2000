@@ -3,6 +3,7 @@ import folkarts from "../assets/folkarts/info.json";
 import Background from '../../components/Background';
 import FrameCard from '../../components/FrameCard';
 import TextCard from '../../components/TextCard';
+import Arrow from '../../components/Arrow';
 
 const History = () => {
   var { id } = useParams();
@@ -46,6 +47,8 @@ const History = () => {
       <img className="history-star" src="../../public/star.png"/>
       <img className="history-flower" src="../../public/flower.png"/>
 
+      <Arrow className="nav-arrow-right" link={`/art/${id}/presentDay`} src="right" />
+      <Arrow className="nav-arrow-left" link={`/art/${id}/intro`} src="left" />
     </div>
   )
 }

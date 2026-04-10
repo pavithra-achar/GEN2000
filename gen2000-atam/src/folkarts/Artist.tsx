@@ -2,6 +2,7 @@ import { useParams } from 'react-router-dom';
 import folkarts from "../assets/folkarts/info.json";
 import Background from '../../components/Background';
 import FrameCard from '../../components/FrameCard';
+import Arrow from '../../components/Arrow';
 
 const Artist = () => {
   var { id } = useParams();
@@ -16,7 +17,7 @@ const Artist = () => {
     <div className='page bg artist'>
       {art?.name}
       <Background />
-      <div className='relative'>
+      <div className=''>
         <img className="master-name" src="/master-name.png" />
 
         <FrameCard frameSrc="/frame1.png" className="artist-frame" imageSrc={frame1.imageSrc} alt={frame1.alt} modalTitle={frame1.modalTitle} modalContent={frame1.modalContent} />
@@ -26,6 +27,8 @@ const Artist = () => {
         <img className='leaf' src="/leaf.png" />
         <img className='star' src="/star.png" />
         <img className="lotus" src="/lotus.png" />
+    
+      <Arrow className="nav-arrow-left" link={`/art/${id}/performance`} src="left" />
       </div>
     </div>
   );
