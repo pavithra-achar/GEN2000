@@ -25,6 +25,9 @@ const Intro = () => {
       <FrameCard frameSrc="/frame3.png" className="intro-bottom-left" imageSrc={frame1.imageSrc} alt={frame1.alt} modalTitle={frame1.modalTitle} modalContent={frame1.modalContent} />
       {/* <img className="intro-top-right" src='../../public/frame2.png'/>  */}
       <FrameCard frameSrc="/frame2.png" className="intro-top-right" imageSrc={frame1.imageSrc} alt={frame1.alt} modalTitle={frame1.modalTitle} modalContent={frame1.modalContent} />
+      <FrameCard frameSrc={frame1?.imageSrc} className="intro-top-left" imageSrc="" alt={frame1.alt} modalTitle={frame1.modalTitle} modalContent={frame1.modalContent} />
+      <FrameCard frameSrc={frame1?.imageSrc} className="intro-bottom-right bg-cover" imageSrc="" alt={frame1.alt} modalTitle={frame1.modalTitle} modalContent={frame1.modalContent} />
+      
       <img className="intro-loopy" src="../../public/loopy.png"/>
       <img className="sparkle intro-sparkle-left" src="../../public/sparkle.png"/>
       <img className='sparkle intro-sparkle-right' src="../../public/sparkle.png"/>

@@ -188,6 +188,22 @@ code {
     height: 45vh;
 }
 
+.intro-top-left {
+    position: absolute;
+    top: 10px;
+    left: 3vw;
+    height: 40vh;
+}
+
+.intro-bottom-right {
+    position: absolute;
+    bottom: 10px;
+    right: 3vw;
+    height: 40vh;
+    width: 30vw;
+    object-fit: cover;
+}
+
 .sparkle {
   height :12vh;
   position: absolute;

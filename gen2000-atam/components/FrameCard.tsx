@@ -31,7 +31,7 @@ const FrameCard = (props: FrameCardProps) => {
         <div className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 overflow-hidden ${innerWrapperClassName} ${innerClassName}`}>
           <img src={props.imageSrc} alt={props.alt} className="w-full h-full object-cover" />
         </div>
-        <img src={props.frameSrc} alt="frame" className="relative z-10 w-full h-full pointer-events-none" />
+        <img src={props.frameSrc} alt="frame" className="relative z-10 w-full h-full pointer-events-none object-cover" />
       </div>
 
       {open && (

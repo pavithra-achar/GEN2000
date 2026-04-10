@@ -56,6 +56,7 @@ const History = () => {
           className="history-top-right"
           innerClassName=''
         />
+        <FrameCard frameSrc={frame1?.imageSrc} className="intro-bottom-right bg-cover" imageSrc="" alt={frame1.alt} modalTitle={frame1.modalTitle} modalContent={frame1.modalContent} />
       <img className="intro-loopy" src="../../public/loopy.png"/>
       <img className="history-loopy" src="../../public/loopy.png"/>
       <img className="sparkle history-sparkle-left" src="../../public/sparkle.png"/>
