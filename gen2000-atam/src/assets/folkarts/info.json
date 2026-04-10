@@ -1,13 +1,19 @@
 {
     "folkarts": [
         {
-            "name": "Therukoothu | \u0ba4\u0bc6 \u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc2\u0ba4\u0bcd\u0ba4",
+            "name": "Therukoothu",
             "desc": "Translating to \"Street Theatre,\" this is a highly stylized, multi-disciplinary folk performance combining acting, singing, dance, and vibrant makeup.",
             "sections": {
                 "intro": {
                     "template": "template1",
                     "content": {
                         "frame1": {
+                            "imageSrc": "/2026-5-therukoothu/intro_1.png",
+                            "alt": "Fully Dressed Artisan",
+                            "modalTitle": "Fully Dressed Artisan",
+                            "modalContent": "Performers wear elaborate wooden ornaments known as bujai kattai (shoulder pieces) and large, gilded headgear decorated with small mirrors."
+                        },
+                        "frame2": {
                             "imageSrc": "/2026-5-therukoothu/intro_1.png",
                             "alt": "Fully Dressed Artisan",
                             "modalTitle": "Fully Dressed Artisan",

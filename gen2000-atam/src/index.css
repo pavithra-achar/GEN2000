@@ -673,8 +673,8 @@ position: fixed;
 
 .font-grimp {
   font-family: var(--font-grimp);
-  font-size: 10vw;
-  padding-top: 4vw;
+  font-size: 14vh;
+  padding-top: 9.5vh;
   margin: 0px;
   z-index: 40;
 }
