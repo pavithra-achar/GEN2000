@@ -529,15 +529,15 @@ position: absolute;
   position: fixed;
     left: 15vw;
     width: 40vw;
-    bottom: 0vh;
+    bottom: -3vh;
     rotate: -12deg;
 }
 
 .present-day .frame2 {
    position: fixed;
-    left: 4vw;
-    width: 45vw;
-    top: 3vh;
+    left: -4vw;
+    width: 40vw;
+    top: 2vh;
 }
 
 .present-day .arrow {
