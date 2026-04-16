@@ -1,4 +1,3 @@
-import React from 'react'
 import { useParams } from 'react-router-dom';
 import folkarts from "../assets/folkarts/info.json";
 import Background from '../../components/Background';
@@ -27,7 +26,7 @@ const Performance = () => {
       {/* <img className="perf-top-left" src='../../public/frame2.png'/> */}
       <FrameCard
           frameSrc="/frame2.png"
-          imageSrc={frame1.imageSrc}
+          imageSrc={frame1?.imageSrc}
           alt={frame1?.alt}
           modalTitle={frame1?.modalTitle}
           modalContent={frame1?.modalContent}
@@ -36,7 +35,7 @@ const Performance = () => {
         />
        <FrameCard
           frameSrc="/frame2.png"
-          imageSrc={frame2.imageSrc}
+          imageSrc={frame2?.imageSrc}
           alt={frame2?.alt}
           modalTitle={frame2?.modalTitle}
           modalContent={frame2?.modalContent}
@@ -45,7 +44,7 @@ const Performance = () => {
           />
       <FrameCard
           frameSrc="/frame3.png"
-          imageSrc={frame3.imageSrc}
+          imageSrc={frame3?.imageSrc}
           alt={frame3?.alt}
           modalTitle={frame3?.modalTitle}
           modalContent={frame3?.modalContent}

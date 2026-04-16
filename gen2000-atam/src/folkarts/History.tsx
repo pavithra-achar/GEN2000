@@ -25,25 +25,25 @@ const History = () => {
       {/* <img className="history-bottom-left" src='../../public/frame2.png'/> */}
       <FrameCard frameSrc="/frame2.png" 
       className="history-bottom-left" 
-      imageSrc={frame1.imageSrc} 
-      alt={frame1.alt} 
-      modalTitle={frame1.modalTitle} 
-      modalContent={frame1.modalContent} />
+      imageSrc={frame1?.imageSrc} 
+      alt={frame1?.alt} 
+      modalTitle={frame1?.modalTitle} 
+      modalContent={frame1?.modalContent} />
       {/* <img className="history-top-left" src='../../public/frame2.png'/>  */}
 
        <FrameCard frameSrc="/frame2.png" 
       className="history-top-left" 
-      imageSrc={frame2.imageSrc} 
-      alt={frame2.alt} 
-      modalTitle={frame2.modalTitle} 
-      modalContent={frame2.modalContent} />
+      imageSrc={frame2?.imageSrc} 
+      alt={frame2?.alt} 
+      modalTitle={frame2?.modalTitle} 
+      modalContent={frame2?.modalContent} />
 
       <FrameCard frameSrc="/frame3.png" 
       className="history-center" 
-      imageSrc={frame3.imageSrc} 
-      alt={frame3.alt} 
-      modalTitle={frame3.modalTitle} 
-      modalContent={frame3.modalContent} />
+      imageSrc={frame3?.imageSrc} 
+      alt={frame3?.alt} 
+      modalTitle={frame3?.modalTitle} 
+      modalContent={frame3?.modalContent} />
     {/* <img className="history-center" src='../../public/frame3.png'/>  */}
       {/* <img className="history-top-right" src='../../public/frame1.png'/>  */}
       
@@ -56,7 +56,7 @@ const History = () => {
           className="history-top-right"
           innerClassName=''
         />
-        <FrameCard frameSrc={frame1?.imageSrc} className="intro-bottom-right bg-cover" imageSrc="" alt={frame1.alt} modalTitle={frame1.modalTitle} modalContent={frame1.modalContent} />
+        <FrameCard frameSrc={frame1?.imageSrc} className="intro-bottom-right bg-cover" imageSrc="" alt={frame1?.alt} modalTitle={frame1?.modalTitle} modalContent={frame1?.modalContent} />
       <img className="intro-loopy" src="../../public/loopy.png"/>
       <img className="history-loopy" src="../../public/loopy.png"/>
       <img className="sparkle history-sparkle-left" src="../../public/sparkle.png"/>

@@ -1,6 +1,4 @@
-import React from 'react'
-
-const TextCard = (props) => {
+const TextCard = (props : any) => {
   return (
     <div className={props.className}>
         <img className={'absolute ' + props.titleclass} src='../../public/label-tilt.png'/>

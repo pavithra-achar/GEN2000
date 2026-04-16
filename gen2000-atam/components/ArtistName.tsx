@@ -1,0 +1,10 @@
+const ArtistName = (props : any) => {
+  return (
+    <div className={props.className}>
+        <img className={'absolute ' + props.titleclass} src='../../public/master-name.png'/>
+        <h1 className="relative master-label z-50">{props.title}</h1>
+    </div>
+  )
+}
+
+export default ArtistName

@@ -726,6 +726,15 @@ position: fixed;
   text-align: right;
 }
 
+.master-label {
+  font-family: var(--font-grimp);
+  font-size: 10vw;
+  padding-top: 6vw;
+  margin: 0px;
+  transform: rotate(25deg);
+  text-align: right;
+}
+
 
 @media (hover: hover) and (min-width: 600px) {
   .card::after {
