@@ -13,6 +13,9 @@ const Intro = () => {
 
   const art = folkarts.folkarts.at(parseInt(id));
   const frame1 = art?.sections?.intro.content.frame1;
+  const frame2 = art?.sections?.intro.content.frame2;
+  const frame3 = art?.sections?.intro.content.frame3;
+  const frame4 = art?.sections?.intro.content.frame4;
 
   return (
     <div className='page bg relative'>{folkarts.folkarts.at(parseInt(id))?.name}
@@ -21,11 +24,11 @@ const Intro = () => {
       <TextCard className="intro-label" titleclass="intro-title" title={folkarts.folkarts.at(parseInt(id))?.name} />
       {/* <img className="intro-label" src='../../public/label.png'/> */}
       {/* <img className="intro-bottom-left" src='../../public/frame3.png'/> */}
-      <FrameCard frameSrc="/frame3.png" className="intro-bottom-left" imageSrc={frame1?.imageSrc} alt={frame1?.alt} modalTitle={frame1?.modalTitle} modalContent={frame1?.modalContent} />
+      <FrameCard frameSrc="/frame3.png" className="intro-bottom-left" imageSrc={frame3?.imageSrc} alt={frame3?.alt} modalTitle={frame3?.modalTitle} modalContent={frame3?.modalContent} />
       {/* <img className="intro-top-right" src='../../public/frame2.png'/>  */}
-      <FrameCard frameSrc="/frame2.png" className="intro-top-right" imageSrc={frame1?.imageSrc} alt={frame1?.alt} modalTitle={frame1?.modalTitle} modalContent={frame1?.modalContent} />
-      <FrameCard frameSrc={frame1?.imageSrc} className="intro-top-left" imageSrc="" alt={frame1?.alt} modalTitle={frame1?.modalTitle} modalContent={frame1?.modalContent} />
-      <FrameCard frameSrc={frame1?.imageSrc} className="intro-bottom-right bg-cover" imageSrc="" alt={frame1?.alt} modalTitle={frame1?.modalTitle} modalContent={frame1?.modalContent} />
+      <FrameCard frameSrc="/frame2.png" className="intro-top-right" imageSrc={frame2?.imageSrc} alt={frame2?.alt} modalTitle={frame2?.modalTitle} modalContent={frame2?.modalContent} />
+      <FrameCard frameSrc={frame1?.imageSrc} className="intro-top-left" imageSrc="" alt={""} modalTitle={frame1?.modalTitle} modalContent={frame1?.modalContent} />
+      <FrameCard frameSrc={frame4?.imageSrc} className="intro-bottom-right bg-cover" imageSrc="" alt={""} modalTitle={frame4?.modalTitle} modalContent={frame4?.modalContent} />
       
       <img className="intro-loopy" src="/loopy.png"/>
       <img className="sparkle intro-sparkle-left" src="/sparkle.png"/>

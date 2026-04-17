@@ -3,6 +3,7 @@
         {
             "name": "Therukoothu",
             "desc": "Translating to \"Street Theatre,\" this is a highly stylized, multi-disciplinary folk performance combining acting, singing, dance, and vibrant makeup.",
+            "image" : "/2026-5-therukoothu/intro_1.png",
             "sections": {
                 "intro": {
                     "template": "template1",
@@ -277,7 +278,7 @@
                     "template": "template1",
                     "content": {
                         "frame1": {
-                            "imageSrc": "/2024-2-karagaattam-and-thavil/intro_1.jpeg",
+                            "imageSrc": "/2024-2-karagaattam-and-thavil/salangai.jpeg",
                             "alt": "Nam Marabu Series 2 (2024)",
                             "modalTitle": "Nam Marabu Series 2 (2024)",
                             "modalContent": "Held from 8 to 11 May 2024, Nam Marabu Series 2 introduced Karagaattam and Thavil through an in-house dialogue session at the Indian Heritage Centre and outreach workshops across studios and schools in Singapore. The series brought the folk art closer to students, dance enthusiasts, and first-time learners."
@@ -405,12 +406,24 @@
                     "template": "template1",
                     "content": {
                         "frame1": {
-                            "imageSrc": "/2026-1-salangai-kittiyattam/intro_1.jpg",
+                            "imageSrc": "/2026-1-salangai-kittiyattam/intro_1.png",
                             "alt": "Animated photo of Salangai Kittiyattam",
                             "modalTitle": "Animated photo of Salangai Kittiyattam",
                             "modalContent": "Salangai Kittiyattam is a traditional South Indian folk practice where rhythm, movement and devotion come together through the sounding of the salangai \u2014 bells attached to the wooden stick."
                         },
                          "frame2": {
+                            "imageSrc": "/2026-1-salangai-kittiyattam/image.png",
+                            "alt": "Animated photo of Salangai Kittiyattam",
+                            "modalTitle": "Animated photo of Salangai Kittiyattam",
+                            "modalContent": "Salangai Kittiyattam is a traditional South Indian folk practice where rhythm, movement and devotion come together through the sounding of the salangai \u2014 bells attached to the wooden stick."
+                        },
+                        "frame3": {
+                            "imageSrc": "/2026-1-salangai-kittiyattam/image (1).png",
+                            "alt": "Animated photo of Salangai Kittiyattam",
+                            "modalTitle": "Animated photo of Salangai Kittiyattam",
+                            "modalContent": "Salangai Kittiyattam is a traditional South Indian folk practice where rhythm, movement and devotion come together through the sounding of the salangai \u2014 bells attached to the wooden stick."
+                        },
+                        "frame4": {
                             "imageSrc": "/2026-1-salangai-kittiyattam/intro_1.jpg",
                             "alt": "Animated photo of Salangai Kittiyattam",
                             "modalTitle": "Animated photo of Salangai Kittiyattam",

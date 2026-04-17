@@ -7,7 +7,9 @@ const Home = () => {
     <div className='page'>
     {
       folkarts.folkarts.map((art, index) => (
-        <div className='card'>
+        <div className='card' style={{
+          backgroundImage: `url("/home-card-bg.jpg")`
+        }}>
           <div className='content'>
             <h2 className='title'>{art.name}</h2>
             <p className='copy'>{art.desc}</p>
