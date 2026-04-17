@@ -22,8 +22,8 @@ const Performance = () => {
     
       <Background />
       <TextCard className="perf-label" titleclass="perf-title" title={"Performance Elements"} />
-      {/* <img className="perf-label" src='../../public/label.png'/> */}
-      {/* <img className="perf-top-left" src='../../public/frame2.png'/> */}
+      {/* <img className="perf-label" src='/label.png'/> */}
+      {/* <img className="perf-top-left" src='/frame2.png'/> */}
       <FrameCard
           frameSrc="/frame2.png"
           imageSrc={frame1?.imageSrc}
@@ -60,12 +60,12 @@ const Performance = () => {
           className="perf-bottom-left"
           innerClassName=''
         />
-      <img className="intro-loopy" src="../../public/loopy.png"/>
-      <img className="perf-loopy" src="../../public/loopy.png"/>
-      <img className="sparkle perf-sparkle-left" src="../../public/sparkle.png"/>
-      <img className='sparkle perf-sparkle-right' src="../../public/sparkle.png"/>
-      <img className="perf-star" src="../../public/star.png"/>
-      <img className="perf-lotus" src="../../public/lotus.png"/>
+      <img className="intro-loopy" src="/loopy.png"/>
+      <img className="perf-loopy" src="/loopy.png"/>
+      <img className="sparkle perf-sparkle-left" src="/sparkle.png"/>
+      <img className='sparkle perf-sparkle-right' src="/sparkle.png"/>
+      <img className="perf-star" src="/star.png"/>
+      <img className="perf-lotus" src="/lotus.png"/>
 
       <Arrow className="nav-arrow-right" link={`/art/${id}/artists`} src="right" />
       <Arrow className="nav-arrow-left" link={`/art/${id}/presentDay`} src="left" />

@@ -57,12 +57,12 @@ const History = () => {
           innerClassName=''
         />
         <FrameCard frameSrc={frame1?.imageSrc} className="intro-bottom-right bg-cover" imageSrc="" alt={frame1?.alt} modalTitle={frame1?.modalTitle} modalContent={frame1?.modalContent} />
-      <img className="intro-loopy" src="../../public/loopy.png"/>
-      <img className="history-loopy" src="../../public/loopy.png"/>
-      <img className="sparkle history-sparkle-left" src="../../public/sparkle.png"/>
-      <img className='sparkle history-sparkle-right' src="../../public/sparkle.png"/>
-      <img className="history-star" src="../../public/star.png"/>
-      <img className="history-flower" src="../../public/flower.png"/>
+      <img className="intro-loopy" src="/loopy.png"/>
+      <img className="history-loopy" src="/loopy.png"/>
+      <img className="sparkle history-sparkle-left" src="/sparkle.png"/>
+      <img className='sparkle history-sparkle-right' src="/sparkle.png"/>
+      <img className="history-star" src="/star.png"/>
+      <img className="history-flower" src="/flower.png"/>
 
       <Arrow className="nav-arrow-right" link={`/art/${id}/presentDay`} src="right" />
       <Arrow className="nav-arrow-left" link={`/art/${id}/intro`} src="left" />
