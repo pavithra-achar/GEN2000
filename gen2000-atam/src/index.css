@@ -606,7 +606,7 @@ position: fixed;
   position: absolute;
     right: 15px;
     bottom: 15px;
-    width: 6vw;
+    width: 10vw;
     z-index: 30;
 }
 
@@ -614,7 +614,7 @@ position: fixed;
   position: absolute;
     left: 15px;
     bottom: 15px;
-    width: 6vw;
+    width: 10vw;
     z-index: 30;
 }
 

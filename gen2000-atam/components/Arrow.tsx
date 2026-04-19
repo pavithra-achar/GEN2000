@@ -6,7 +6,7 @@ const Arrow = (props : any) => {
   return (
     <img onClick={() => {
         navigate(props.link);
-    }} className={props.className} src={'/'+ props.src +'-nav-arrow.svg'} alt="Arrow" />
+    }} className={props.className} src={'/'+ props.src +'-nav-arrow.png'} alt="Arrow" />
   )
 }
 
