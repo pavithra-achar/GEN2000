@@ -1,18 +1,25 @@
 import { useParams, Link } from 'react-router-dom';
+import LandingCards from '../components/LandingCards'
+
 
 const Landing = () => {
     var { id } = useParams();
         if(id == null) {
             id = "0";
         }
-  return (
-    <div className='page'>
-        <Link to={"/art/"+id+"/intro"}>Intro</Link>
-        <Link to={"/art/"+id+"/history"}>History</Link>
-        <Link to={"/art/"+id+"/performance"}>Performance Elements</Link>
-        <Link to={"/art/"+id+"/presentDay"}>Present Day</Link>
-        <Link to={"/art/"+id+"/artists"}>Artists</Link>
-    </div>
+
+    const cards = [
+        { title: "Intro", path: `/art/${id}/intro` },
+        { title: "History", path: `/art/${id}/history` },
+        { title: "Performance Elements", path: `/art/${id}/performance` },
+        { title: "Present Day", path: `/art/${id}/presentDay` },
+        { title: "Artists", path: `/art/${id}/artists` },
+    ];
+
+    return (
+        <div className='bg page'>
+            <LandingCards items={cards} />
+        </div>
   )
 }
 

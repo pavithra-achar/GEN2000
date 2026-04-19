@@ -17,7 +17,7 @@ const Artist = () => {
       {art?.name}
       <Background />
       <div className=''>
-        <ArtistName className="master-name" titleclass="master-name" title={art?.name} />
+        <ArtistName className="master-name" titleclass="master-name" title={art?.sections.artists.name} />
 
         <FrameCard frameSrc="/frame1.png" className="artist-frame" imageSrc={frame1?.imageSrc} alt={frame1?.alt} modalTitle={frame1?.modalTitle} modalContent={frame1?.modalContent} />
         <FrameCard frameSrc="/frame2.png" className="frame2"       imageSrc={frame1?.imageSrc} alt={frame1?.alt} modalTitle={frame1?.modalTitle} modalContent={frame1?.modalContent} />
