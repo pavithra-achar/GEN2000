@@ -36,7 +36,7 @@ const FrameCard = (props: FrameCardProps) => {
 
       {open && (
         <div className="fixed inset-0 z-50 flex items-center justify-center">
-          <div className="relative w-[90%] max-w-lg p-6 rounded-xl shadow-2xl">
+          <div className="relative w-[90%] max-w-lg p-6 rounded-xl shadow-2xl bg-[#f4efe6] border-4 border-[#e5d9c8]">
             <button onClick={() => setOpen(false)} className="absolute top-3 right-3 text-[#5c4a36] text-2xl font-semibold">×</button>
             <div className="absolute -top-6 left-1/2 -translate-x-1/2">
               <img src="/lotus.png" className="w-15 pointer-events-none" />
