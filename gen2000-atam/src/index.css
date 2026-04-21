@@ -608,6 +608,7 @@ position: fixed;
     bottom: 15px;
     width: 10vw;
     z-index: 30;
+    cursor: pointer;
 }
 
 .nav-arrow-left {
@@ -616,6 +617,7 @@ position: fixed;
     bottom: 15px;
     width: 10vw;
     z-index: 30;
+    cursor: pointer;
 }
 
 

@@ -14,7 +14,6 @@ const PresentDay = () => {
 
   return (
     <div className='page bg relative present-day'>
-      {art?.name}
       <Background />
       <div className=''>
          {/* <img className='label' src="/label-tilt.png"/> */}
